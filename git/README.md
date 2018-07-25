@@ -12,3 +12,13 @@ Pick a specific commit without including the history (contrast with `merge` and 
 (multiple commits) to another branch.
 
 `git cherry-pick <commit to apply>`
+
+## Local out of sync with remote
+
+Occurs when a change is made to remote, i.e., through the web UI, and the remote is out of sync with local.
+
+Issue:
+
+```
+git pull origin <branch>
+```
