@@ -22,3 +22,10 @@ Issue:
 ```
 git pull origin <branch>
 ```
+
+## Git add all except
+
+```
+git add -u
+git reset -- <item-to-remove>
+```
