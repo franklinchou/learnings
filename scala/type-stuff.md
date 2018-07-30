@@ -49,3 +49,20 @@ f[A, B] // unlike previously, this will also fail
 type A = B
 f[A, B] // this will compile
 ```
+
+
+More examples using `<:<`
+
+```
+trait A
+trait B
+trait C extends A
+
+def f[A, B](implicit ev: A <:< B){ println("works") }
+
+f[A, B] // fails (cannot prove that A is a sub-type of B)
+
+f[C, A] // this works
+```
+
+
