@@ -12,7 +12,7 @@ List the applications using port 80
 
 Used to delete lines in a file:
 
-```
+```sh
 sed -i '/What I want to replace/c\What I want to replace it with' ./path/to/file
 sed -i '/What I want to */c\What I want to replace it with' ./path/to/file # wildcard character matching
 sed -i '/[a-z0-9]\{7\}/c\' ./path/to/file # regexp
