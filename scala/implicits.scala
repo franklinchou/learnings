@@ -39,6 +39,8 @@ trait DAO[M <: GenericModel] {
   def create(m: M)(implicit w: OWrites[M]): Boolean = {
     val js = Json.toJson(m)
 
+    println(Json.prettyPrint(js))
+
     // Validate is json
     Try(js).isSuccess
 
