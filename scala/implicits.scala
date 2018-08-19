@@ -22,6 +22,7 @@ case class ConcreteModel(description: String) extends GenericModel {
   val name: String = getClass.getSimpleName
 
   // implicitly convert a "model" to json
+  // omitting this will revert to the jsWriter on the GenericModel
   override implicit val jsWriter = OWrites[ConcreteModel] { m =>
     Json.obj(
       "id" -> m.id,
@@ -70,6 +71,5 @@ Repo.create(model)(model2Json)  // returns true
 val omitNameJson = CustomJson.jsWriterOmitName
 
 Repo.create(model)(omitNameJson)  // returns true; omits the "name" field
-
 
 
