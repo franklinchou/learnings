@@ -2,11 +2,14 @@ import play.api.libs.json.{Json, OWrites}
 
 import scala.util.Try
 
-
 // Generic Model
 trait GenericModel {
   val id: String
+}
 
+object GenericModel {
+
+  // Place the implicit here in the OBJECT not in the trait
   implicit val jsWriter = OWrites[ConcreteModel] { m =>
     Json.obj(
       "id" -> m.id
@@ -16,36 +19,34 @@ trait GenericModel {
 
 
 case class ConcreteModel(description: String) extends GenericModel {
-
   val id: String = hashCode().toString
-
   val name: String = getClass.getSimpleName
+}
 
+
+object ConcreteModel {
   // implicitly convert a "model" to json
-  // omitting this will revert to the jsWriter on the GenericModel
-  override implicit val jsWriter = OWrites[ConcreteModel] { m =>
+  implicit val jsWriter = OWrites[ConcreteModel] { m =>
     Json.obj(
       "id" -> m.id,
       "name" -> m.name,
       "description" -> m.description
     )
   }
-
 }
 
 
-trait DAO[M <: GenericModel] {
 
+
+trait DAO[M <: GenericModel] {
   def create(m: M)(implicit w: OWrites[M]): Boolean = {
     val js = Json.toJson(m)
 
     println(Json.prettyPrint(js))
-
+    
     // Validate is json
     Try(js).isSuccess
-
   }
-
 }
 
 
@@ -65,13 +66,10 @@ object CustomJson {
 
 val model = ConcreteModel("mock object")
 
-val model2Json = model.jsWriter
 
-Repo.create(model)(model2Json)  // returns true
+Repo.create(model)  // returns true AND allows json writer to be omitted
 
 
 val omitNameJson = CustomJson.jsWriterOmitName
 
 Repo.create(model)(omitNameJson)  // returns true; omits the "name" field
-
-
