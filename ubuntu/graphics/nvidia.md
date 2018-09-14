@@ -1,5 +1,5 @@
 # Problem
-Disabling the Nvidia GeForce GTX 1050 graphics card on Dell XPS 15 (9560) in Nvidia XServer settings causes Ubuntu 16.04 to fail to boot to graphical interface.
+Disabling the Nvidia GeForce GTX 1050 graphics card on Dell XPS 15 (9560) in Nvidia XServer settings (Nvidia Prime) causes Ubuntu 16.04 to fail to boot to graphical interface.
 
 _Reproduce_: PRIME Profiles > Select "Intel (Power Saving Mode)"
 
