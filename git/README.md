@@ -23,6 +23,22 @@ Issue:
 git pull origin <branch>
 ```
 
+Git pull fetches updates from `origin` and _merges_ them into the target (local) branch.
+It does _not_ create a new branch.
+
+Or, from the local branch that is out of sync, issue:
+
+```
+git fetch origin
+git reset --hard origin/<branch>
+git clean -f -d
+```
+
+`git checkout -b <branch> origin/<branch>` 
+^ This command does _not_ fetch updates from `origin`. It creates a new local branch that tracks
+the `origin/<branch>` on _local_.
+
+
 ## Git add all except
 
 ```
