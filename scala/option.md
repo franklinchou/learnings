@@ -6,15 +6,15 @@ Would like to set value to `b` but only if `a` is defined.
 
 ```scala
 for {
-  x <- None
-  y <- Some(9)
+  a <- None
+  b <- Some(9)
 } yield y // returns None
 ```
 
 ```scala
 for {
-  x <- Some("defined")
-  y <- Some(9)
+  a <- Some("defined")
+  b <- Some(9)
 } yield y // returns Some(9)
 ```
 
