@@ -1,4 +1,4 @@
-# Option (Scala's answer to `null`)
+# Option
 
 ## Tiered lazy evaluation with option
 
