@@ -31,4 +31,29 @@ Set(a, b).flatten  // returns Set(5)
 
 ## Options don't match
 
-http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match/
+Pattern matching on `Option` is almost never necessary.
+Treat `Option` as a collection and use collection functions, e.g., `map`,
+`flatMap`, `filter`, &c. to decompose.
+
+This:
+
+```
+opt match {
+  case Some(a) => foo(a)
+  case None => bar
+}
+```
+
+can be decomposed to:
+
+```
+opt.map(foo).getOrElse(bar)
+```
+or
+
+```
+opt.fold(bar)(foo)
+```
+
+
+For more, see [here](http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match/).
