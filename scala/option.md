@@ -29,7 +29,7 @@ Set(a, b).flatten  // returns Set(5)
 ```
 
 
-## Options don't match
+## Removing pattern matching on `Option`
 
 Pattern matching on `Option` is almost never necessary.
 Treat `Option` as a collection and use collection functions, e.g., `map`,
@@ -55,4 +55,4 @@ opt.fold(bar)(foo)
 ```
 
 
-For more, see [here](http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match/).
+For more, see [Your Options Don't Match](http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match/).
