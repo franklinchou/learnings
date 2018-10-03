@@ -2,7 +2,7 @@
 
 ## Tiered lazy evaluation with option
 
-Would like to set value to b but only if a is defined.
+Would like to set value to `b` but only if `a` is defined.
 
 ```scala
 for {
@@ -37,7 +37,7 @@ Treat `Option` as a collection and use collection functions, e.g., `map`,
 
 This:
 
-```
+```scala
 opt match {
   case Some(a) => foo(a)
   case None => bar
@@ -46,12 +46,11 @@ opt match {
 
 can be decomposed to:
 
-```
+```scala
 opt.map(foo).getOrElse(bar)
-```
-or
 
-```
+// or
+
 opt.fold(bar)(foo)
 ```
 
