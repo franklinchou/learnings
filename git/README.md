@@ -48,7 +48,7 @@ git reset -- <item-to-remove>
 
 ## Git merge
 
-```sh
+```
 git merge <branch> --strategy-option ours # I don't care what's in remote
 git merge <branch> --strategy-option theirs # I don't care what's in local
 ```
