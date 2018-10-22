@@ -1,7 +1,5 @@
 # Git
 
-## Undoing things
-
 ### Undoing deletion of an uncommitted file
 
 `git checkout -- <file>`
@@ -52,3 +50,17 @@ git reset -- <item-to-remove>
 git merge <branch> --strategy-option ours # I don't care what's in remote
 git merge <branch> --strategy-option theirs # I don't care what's in local
 ```
+
+## Keeping a clean commit history with rebase
+
+Rebase resynchs the changes onto the branch in the order that these changes appeared. 
+In contrast, squash and merge simply appends all the changes to the history
+
+```
+git checkout <parent-branch>
+git pull 
+git checkout <feature-branch>
+git rebase <parent branch>
+```
+
+
