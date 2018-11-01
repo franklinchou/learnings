@@ -46,6 +46,12 @@ git add -u
 git reset -- <item-to-remove>
 ```
 
+## Set up new local branch to track remote
+```
+git branch --track <local> origin/<remote>
+```
+
+
 ## Git merge
 
 ```
