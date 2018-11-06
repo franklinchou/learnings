@@ -47,7 +47,7 @@ component that comprises the sum type. For example, using the above trait `A`,
 
 ```
 newB match {
-  case B => "found object of type B
+  case B => "found object of type B"
 }
 ```
 
