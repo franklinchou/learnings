@@ -18,3 +18,15 @@ kubectl get pods -a --namespace=<namespace> # Get all jobs (including completed)
 ```
 
 Substitute `pods` for `jobs` to retrieve job information.
+
+Get the logs for a particular pod (same as accessing the logs on the web UI): 
+```
+kubectl logs --namespace=<namespace> <job> 
+```
+
+Checking logs for an individual container:
+```
+kubectl describe jobs <job-name> --namespace=<namespace>
+kubectl logs <pod-id> -c <container> --namespace=<namespace>
+kubectl logs run-theorem-05shl -c ledger-theorem --namespace=cfm # for example
+```
