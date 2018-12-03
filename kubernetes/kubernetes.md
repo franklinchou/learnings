@@ -19,14 +19,17 @@ kubectl get pods -a --namespace=<namespace> # Get all jobs (including completed)
 
 Substitute `pods` for `jobs` to retrieve job information.
 
-Get the logs for a particular pod (same as accessing the logs on the web UI): 
+Get the logs for a particular job (same as accessing the logs on the web UI): 
 ```
+kubectl logs <job>
 kubectl logs --namespace=<namespace> <job> 
+kubectl logs --namespace=<namespace> -c <container> job
 ```
 
-Checking logs for an individual container:
+Describe gives actual information about the sub-system/level supplied, i.e., job-level information if
+`jobs` is supplied. Rather than logs which gives the same information that can be retrieved from the UI 
+(information emitted by that application's logging system).
+
 ```
-kubectl describe jobs <job-name> --namespace=<namespace>
-kubectl logs <pod-id> -c <container> --namespace=<namespace>
-kubectl logs run-theorem-05shl -c ledger-theorem --namespace=cfm # for example
+kubectl describe jobs --namespace=<namespace> <job-name>
 ```
