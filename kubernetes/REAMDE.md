@@ -10,6 +10,12 @@ Encode the password to base64:
 
 Save the output as the secret key's value.
 
+## Switching context
+
+```
+kubectl config use-context <context>
+```
+
 ## Retrieving pod & job information
 
 ```
