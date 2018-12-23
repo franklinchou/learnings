@@ -1,8 +1,10 @@
 # Docker 
 
 ## Expose local directory to docker container
-`docker run`
 
+Expose a directory (volume) to the docker container from the host 
+
+`docker run -v /host/directory:/container/directory`
 
 
 ## Removing containers
