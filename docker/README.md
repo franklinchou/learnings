@@ -6,6 +6,8 @@ Expose a directory (volume) to the docker container from the host
 
 `docker run -v /host/directory:/container/directory`
 
+_NOTE_: For `/container/directory/` substitute something like `/opt/artifacts` or `/opt/resources`.
+
 
 ## Removing containers
 1. First stop any running containers
