@@ -28,8 +28,6 @@ trait A extends B
 f[A, B] // this works
 ```
 
-Note that `A => B` defines?
-
 2. Using predef functions
 
 Other class relationship behavior can be modeled using the predef functions: `=:=`, `>:>`, `<:<`.
@@ -44,7 +42,7 @@ def f[A, B](implicit ev: A =:= B){ println("works") }
 f[A, B] // obviously fails
 
 trait A extends B
-f[A, B] // unlike previously, this will also fail
+f[A, B] // this will also fail 
 
 type A = B
 f[A, B] // this will compile
