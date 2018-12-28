@@ -22,7 +22,7 @@ the child (as expected with traditional inheritence).
 to `Q[B]`.
 
 3. Contravariance. A monad is "contravariant in the parameter T") (`Q[-T]`)
-if `Q[B] <:Q[A]`. In other words, `A` is a child of `B` but `Q[A]` is a
+if `Q[B] <: Q[A]`. In other words, `A` is a child of `B` but `Q[A]` is a
 **parent** of `Q[B]`.
 
 For example:
