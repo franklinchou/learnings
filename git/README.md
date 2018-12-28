@@ -7,9 +7,15 @@
 ## Cherry-pick
 
 Pick a specific commit without including the history (contrast with `merge` and `rebase` which apply a history
-(multiple commits) to another branch.
+(multiple commits) to another branch).
 
 `git cherry-pick <commit to apply>`
+
+## Checking out a remote branch
+
+1. `git checkout -b <branch> origin/<branch>` Create a new local branch that tracks a remote. (Note: This command does _not_ fetch updates from `origin`.)
+
+2. `git branch --track <local> origin/<remote>` Set up new local branch to track remote (with the same name). If a local branch with a _different_ name is desired simply create a new branch set the upstream.
 
 ## Local out of sync with remote
 
@@ -32,11 +38,6 @@ git reset --hard origin/<branch>
 git clean -f -d
 ```
 
-`git checkout -b <branch> origin/<branch>` 
-^ This command does _not_ fetch updates from `origin`. It creates a new local branch that tracks
-the `origin/<branch>` on _local_.
-
-
 ## Git add all except
 
 ```
@@ -44,17 +45,11 @@ git add -u
 git reset -- <item-to-remove>
 ```
 
-## Set up new local branch to track remote
-```
-git branch --track <local> origin/<remote>
-```
-
-
 ## Git merge
 
 ```
-git merge <branch> --strategy-option ours # I don't care what's in remote
-git merge <branch> --strategy-option theirs # I don't care what's in local
+git merge <branch> --strategy-option ours # I don't care what's in their branch (usually remote)
+git merge <branch> --strategy-option theirs # I don't care what's in my branch
 ```
 
 ## Keeping a clean commit history with rebase
