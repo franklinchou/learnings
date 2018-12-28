@@ -9,10 +9,12 @@ a monad.
 
 ## Covariance, invariance and contravariance
 
-Consider a monad, `Q[_]` and generic parameters `A <: B`.
+Consider a monad, `Q[_]` and generic parameters `A <: B` (`A` is a child of
+`B`).
 
 1. Covariance. A monad would be "covariant in the parameter T" (`Q[+T]`) if
-`B => Q[B]` and `A => Q[A]` with `Q[A] <: Q[B]`. In this case, the "arrows"
+`B => Q[B]` and `A => Q[A]` with `Q[A] <: Q[B]`. In other words, if `A` is a
+subtype of `B`, then `Q[A]` will be a subtype of `Q[B]`. In this case, the "arrows"
 (the direction of applicability) flows from the parent "downward" to
 the child (as expected with traditional inheritence).
 
@@ -21,7 +23,7 @@ to `Q[B]`.
 
 3. Contravariance. A monad is "contravariant in the parameter T") (`Q[-T]`)
 if `Q[B] <:Q[A]`. In other words, `A` is a child of `B` but `Q[A]` is a
-parent of `Q[B]`.
+**parent** of `Q[B]`.
 
 For example:
 
