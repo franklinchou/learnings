@@ -73,7 +73,6 @@ to the abstract syntax tree (the engine).
 
 Consider the expression `1 + 2 + 3`. We can execute this directly, evaluating to `6`,
 or we could represent it as an AST such as `Add(1, Add(2, 3))`.
-
 Expressed this way, `Add` simply represents the definition of the operation, it is 
 completely agnostic as to its parameters (and to some extent to the result's type).
 This is the power of free monads. Concretely, this means a free monad provides:
