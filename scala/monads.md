@@ -1,11 +1,19 @@
 # Monads
 
+What is a monad?
+
 Monads are data-types that have two functions:
 
-1. `bind` or `map` which takes the value inside a monad, applies some
-function and re-packs the result inside the monad; and
-2. `return` or `lift` which takes any value and puts the value inside
-a monad.
+1. `bind` or `map``map`, which has a signature, `map[M[_], A, B](a: M[A])(f: A => M[B]): M[B]`, 
+which takes the value inside a monad, applies some function and re-packs the result inside the monad; and
+2. `return` or `lift`, which has a signature, `lift[M[_], A](a: A): M[A]`, 
+which takes any value and puts the value inside a monad.
+
+## Using monads for control flow
+
+There is an ordering of operations on `map` and repeated operations of `map`
+create a control structure. One use of monads is to "glue" together
+pure functions with special purpose control flow.
 
 ## Covariance, invariance and contravariance
 
@@ -58,3 +66,23 @@ f3(new InvariantBox[Parent]) // only this will work
 
 ```
 
+## Free monads
+
+Interpreters are about separating the representation of a computation from 
+the way it is run. Any interpreter has two parts: (1) an abstract syntax tree (AST)
+that represents the computation (the language); and (2) a process that gives meaning
+to the abstract syntax tree (the engine).
+
+Consider the expression `1 + 2 + 3`. We can execute this directly, evaluating to `6`,
+or we could represent it as an AST such as `Add(1, Add(2, 3))`.
+
+Expressed this way, `Add` simply represents the definition of the operation, it is 
+completely agnostic as to its parameters (and to some extent to the result's type).
+This is the power of free monads. Concretely, this means a free monad provides:
+
+1. an AST to express monadic operations;
+2. an API to write interpreters that give meaning to this AST.
+
+That’s the basics of the free monad: it’s something we can wrap around an arbitrary type constructor 
+(an `F[_]`) to construct a monad. It allows us to separate the structure of the computation 
+from its interpreter, thereby allowing different interpretation depending on context.
