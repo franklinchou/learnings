@@ -1,8 +1,12 @@
 # Git
 
-### Undoing deletion of an uncommitted file
+## Reverting changes to a single file
 
-`git checkout -- <file>`
+ Note: The `--` flag indicates to git that the parameter that follows is a file and not a branch. 
+
+`git checkout -- <file>` If the change is not committed, revert the change to the state that it is on `HEAD`. 
+
+`git checkout <branch> -- <file>` Revert the change to the state that it is on `branch`.
 
 ## Cherry-pick
 
