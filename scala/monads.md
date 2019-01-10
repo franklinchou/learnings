@@ -2,6 +2,8 @@
 
 What is a monad?
 
+Simply put: **A monad is simply a data type that can apply a function to a wrapped value and return a wrapped value.** Think `List`, `map` applies a function, `f` that also returns a `List`! That's it!
+
 Monads are data-types that have two functions:
 
 1. `bind` or `map`, which has a signature, `map[M[_], A, B](a: M[A])(f: A => M[B]): M[B]`, 
