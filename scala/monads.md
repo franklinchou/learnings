@@ -2,7 +2,7 @@
 
 What is a monad?
 
-Simply put: **A monad is simply a data type that can apply a function to a wrapped value and return a wrapped value.** Think `List`, `map` applies a function, `f` that also returns a `List`! That's it!
+Simply put: **A monad is a data type that can apply a function to a wrapped value and return a wrapped value.** Think `List`, `map` applies a function, `f` that also returns a `List`! That's it!
 
 Monads are data-types that have two functions:
 
