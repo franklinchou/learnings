@@ -8,6 +8,11 @@
 
 `git checkout <branch> -- <file>` Revert the change to the state that it is on `branch`.
 
+## Reverting changes to a branch
+
+`git revert --hard <branch>` E.g., revert the current branch to the state of the supplied `<branch>`.
+
+
 ## Cherry-pick
 
 Pick a specific commit without including the history (contrast with `merge` and `rebase` which apply a history
