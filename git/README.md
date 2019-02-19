@@ -8,6 +8,12 @@
 
 `git checkout <branch> -- <file>` Revert the change to the state that it is on `branch`.
 
+## Removing a file
+
+`git rm <file>` will remove the file _and_ delete it from the local file system
+
+`git rm --cached <file>` will only remove the file from version control
+
 ## Reverting changes to a branch
 
 `git revert --hard <branch>` E.g., revert the current branch to the state of the supplied `<branch>`.
