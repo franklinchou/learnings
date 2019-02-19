@@ -14,6 +14,10 @@
 
 `git rm --cached <file>` will only remove the file from version control
 
+## Renaming a branch
+
+`git branch -m <old> <new>`
+
 ## Reverting changes to a branch
 
 `git revert --hard <branch>` E.g., revert the current branch to the state of the supplied `<branch>`.
