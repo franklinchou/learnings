@@ -22,15 +22,14 @@ is not forced to contend with disparate formatting.
     * Collections
     * Case class/object creation
   
-  For any set of arguments `n > 2`, split the line such that the constructor is on a different line from each argument,
-  each argument is on its own line and each argument is indented from the constructor by 2-spaces. For example:
-  
-  ```
-  val a = Seq("item-1", "item-2") // Here, n == 2, no need to use multiple lines.
-  val b = 
-    Seq(
-      "item-1",
-      "item-2",
-      "item-3"
-    )
-  ```
+    For any set of arguments `n > 2`, split the line such that the constructor is on a different line from each argument,
+    each argument is on its own line and each argument is indented from the constructor by 2-spaces. For example:
+    ```
+    val a = Seq("item-1", "item-2") // Here, n == 2, no need to use multiple lines.
+    val b = 
+      Seq(
+        "item-1",
+        "item-2",
+        "item-3"
+      )
+    ```
