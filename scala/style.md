@@ -12,7 +12,7 @@ is not forced to contend with disparate formatting.
     acceptable. For example, `private val _clientName` is permissible, while `val client_name` is frowned upon.
     * Anonymous variables. Single use variables inside functions like `map` or `fold` can be abbreviated or 
     collapsed into a single letter if their usage is unambiguous. For example,
-      ```
+      ```scala
       val acc = as.map(a => SomeConstructor(a)) // fine
       val acc = as.map(SomeConstructor.apply) // preferable
       val acc = as.map((a, b) => SomeConstructor.apply(a, b))
@@ -24,7 +24,7 @@ is not forced to contend with disparate formatting.
   
     For any set of arguments `n > 2`, split the line such that the constructor is on a different line from each argument,
     each argument is on its own line and each argument is indented from the constructor by 2-spaces. For example:
-    ```
+    ```scala
     val a = Seq("item-1", "item-2") // Here, n == 2, no need to use multiple lines.
     val b = 
       Seq(
