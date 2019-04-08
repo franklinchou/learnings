@@ -34,3 +34,17 @@ Occasionally kafka (or zookeeper) will go down. (This will result in lost pods i
 ## Deleting logs
 
 If disk space is over-utilized (`df`), delete logs contained in `/var/kafka`. This will delete all job history (which should be irrelevant if the cluster is not currently in the process of computing jobs).
+
+## Checking on brokers
+
+Check on the status of brokers in the cluster by issuing: 
+
+```
+sudo /usr/local/kafka/bin/zookeeper-shell.sh localhost:2181
+```
+
+At the zookeeper shell prompt issue:
+
+- `ls /brokers/ids`
+- `get /brokers/ids/<broker-id>`
+
