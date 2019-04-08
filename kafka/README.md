@@ -27,8 +27,9 @@ Occasionally kafka (or zookeeper) will go down. (This will result in lost pods i
 1. Access the Kafka cluster using ssh (`ssh -i <aws-access> <ip>`). Since kafka runs on a cluster, its probably most effective to run the commands via `parallel-ssh`, see the included `restart-kafka.sh` script. Optionally check whether kafka is running by issuing (`sudo service kafka status`).
 2. Access the binary files in `/usr/local/kafka/bin`
 3. Check if zookeeper is running. (`/usr/local/kafka/bin/zookeeper-shell.sh localhost:2181`)
-4. If the server is not running, start the server by issuing `sudo /usr/local/kafka/bin/zookeeper-server-start.sh -daemon /etc/kafka/config/zookeeper.properties` 
+4. If zookeeper is not running, start zookeeper by issuing `sudo /usr/local/kafka/bin/zookeeper-server-start.sh -daemon /etc/kafka/config/zookeeper.properties` 
 5. [test] `/usr/local/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list` 
+6. Start kafka (issue `sudo service kafka start`)
 
 ## Deleting logs
 
