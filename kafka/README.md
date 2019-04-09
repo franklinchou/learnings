@@ -22,18 +22,18 @@ Zookeeper manages the scalability of the Kafka cluster
 
 ## Restarting Kafka & zookeeper
 
-Occasionally kafka (or zookeeper) will go down. (This will result in lost pods in Kubernetes or connection timeout errors). 
+Occasionally kafka (or zookeeper) will go down. (This will result in lost pods in Kubernetes or connection timeout errors.) 
 
 1. Access the Kafka cluster using ssh (`ssh -i <aws-access> <ip>`). Since kafka runs on a cluster, its probably most effective to run the commands via `parallel-ssh`, see the included `restart-kafka.sh` script. Optionally check whether kafka is running by issuing (`sudo service kafka status`).
 2. Access the binary files in `/usr/local/kafka/bin`
 3. Check if zookeeper is running. (`/usr/local/kafka/bin/zookeeper-shell.sh localhost:2181`)
 4. If zookeeper is not running, start zookeeper by issuing `sudo /usr/local/kafka/bin/zookeeper-server-start.sh -daemon /etc/kafka/config/zookeeper.properties` 
-5. [test] `/usr/local/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list` 
+5. [test] If zookeeper is running, you should get a list of available topics when issuing `/usr/local/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list` 
 6. Start kafka (issue `sudo service kafka start`)
 
 ## Deleting logs
 
-If disk space is over-utilized (`df`), delete logs contained in `/var/kafka`. This will delete all job history (which should be irrelevant if the cluster is not currently in the process of computing jobs).
+If disk space is over-utilized (`df`), delete logs contained in `/var/kafka`. This will delete all job history (which should be irrelevant if the cluster is not currently in the process of computing jobs). 
 
 ## Checking on brokers
 
@@ -48,3 +48,10 @@ At the zookeeper shell prompt issue:
 - `ls /brokers/ids`
 - `get /brokers/ids/<broker-id>`
 
+## Owning Kafka file system
+
+Sometimes kafka will fail to start because kafka does not have access to log files in `/var/kafka`. The following command will assign all items in the file to the kafka user & kafka group.
+
+```
+chown -R kafka:kafka /var/kafka
+```
