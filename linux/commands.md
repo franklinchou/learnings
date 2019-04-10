@@ -23,4 +23,9 @@ sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginni
 
 Use the `>>` operator to append to file. For example, appending `*.pdf` to `.gitignore`: 
 
-`echo "*.pdf" >> .gitignore`
+```
+echo "*.pdf" >> .gitignore
+```
+
+## Screen
+- `history | tail -100 | less` View the last 100 commands
