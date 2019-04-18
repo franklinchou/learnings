@@ -20,6 +20,21 @@ Both consumers and producers are scalable
 
 Zookeeper manages the scalability of the Kafka cluster
 
+## Checking on zookeeper
+
+Check on the status of zookeeper in a broker on the cluster by ssh-ing onto the machine and issuing: 
+
+```
+sudo /usr/local/kafka/bin/zookeeper-shell.sh localhost:2181
+```
+
+At the zookeeper prompt issue:
+
+- `ls /brokers/ids`
+- `get /brokers/ids/<broker-id>`
+
+If there is only a single broker-id, Kafka is not running as a cluster (each zookeeper instance only recognizes its own node).
+
 ## Restarting Kafka & zookeeper
 
 Occasionally kafka (or zookeeper) will go down. (This will result in lost pods in Kubernetes or connection timeout errors.) 
@@ -34,19 +49,6 @@ Occasionally kafka (or zookeeper) will go down. (This will result in lost pods i
 ## Deleting logs
 
 If disk space is over-utilized (`df`), delete logs contained in `/var/kafka`. This will delete all job history (which should be irrelevant if the cluster is not currently in the process of computing jobs). 
-
-## Checking on brokers
-
-Check on the status of brokers in the cluster by issuing: 
-
-```
-sudo /usr/local/kafka/bin/zookeeper-shell.sh localhost:2181
-```
-
-At the zookeeper shell prompt issue:
-
-- `ls /brokers/ids`
-- `get /brokers/ids/<broker-id>`
 
 ## Owning Kafka file system
 
