@@ -25,18 +25,18 @@ is not forced to contend with disparate formatting.
         "item-3"
       )
     ```
-
-
+    
 4. Continuations for method definitions:
 
     ```scala
-    case class Example(param1: String, param2: String) // Preferred for easy scanning and extra column space.
+    // Preferred for easy scanning and extra column space
+    case class Example(param1: String, param2: String) 
     
-    // Also acceptable. Should follow from application of line break rules (1) and (2).
+    // Also acceptable. Should follow from application of line break rules (1) and (2)
     case class Example(param1: String,
                        param2: String) 
     
-    // Sub-optimal. Wastes space on both first and last line of method definition. 
+    // Sub-optimal. Wastes space on both first and last line of method definition
     case class Example(
                        param1: String,
                        param2: String
