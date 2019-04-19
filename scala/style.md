@@ -25,7 +25,8 @@ is not forced to contend with disparate formatting.
         "item-3"
       )
     ```
-    
+
+
 4. Continuations for method definitions:
 
     ```scala
