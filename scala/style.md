@@ -6,11 +6,9 @@ is not forced to contend with disparate formatting.
 
 ## Line Breaks
 
-
 1. Where possible, line length of 120 characters should be enforced to prevent unnecessary scrolling.
 
-2. Naming conventions. 
-    
+2. A comma (`,`) stays attached to the token that precedes it.
 
 3. Multi-line blocks of code for readability. In the following cases:
     * Collections
@@ -27,6 +25,24 @@ is not forced to contend with disparate formatting.
         "item-3"
       )
     ```
+
+
+4. Continuations for method definitions:
+
+    ```scala
+    case class Example(param1: String, param2: String) // Preferred for easy scanning and extra column space.
+    
+    // Also acceptable. Should follow from application of line break rules (1) and (2).
+    case class Example(param1: String,
+                       param2: String) 
+    
+    // Sub-optimal. Wastes space on both first and last line of method definition. 
+    case class Example(
+                       param1: String,
+                       param2: String
+                      ) 
+    ```
+
 
 ## Naming conventions
 
