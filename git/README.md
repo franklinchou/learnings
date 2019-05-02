@@ -86,4 +86,9 @@ git checkout <feature-branch>
 git rebase <parent branch>
 ```
 
+## Add only tracked files & ignore tracked files
+
+```
+git add -u
+```
 
