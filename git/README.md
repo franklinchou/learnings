@@ -94,7 +94,7 @@ git add -u
 
 ## Cleaning up local references to deprecated remote branches
 
-Note that this will not remove references to local branches!
+Note that this will not remove references to local branches! (Only removes branches with `origin/*`.)
 
 - `git remote prune origin --dry-run` lists branches that __can__ be deleted/pruned on your local
 - `git remote prune origin` actually executes the prune command
