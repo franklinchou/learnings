@@ -1,6 +1,9 @@
 # Option
 
-## Tiered lazy evaluation with option
+Option is a container for zero or one element of a given type. 
+An `Option[T]` can be either `Some[T]` or `None` (`None` extends `Option[Nothing]`). 
+
+## Tiered lazy evaluation with `Option`
 
 Would like to set value to `b` but only if `a` is defined.
 
