@@ -43,7 +43,8 @@ trait CanFoo[A] {
 case class Wrapper(wrapped: String)
 
 // Added "implicit"
-// This  
+// The evidence object is the only thing in scope of type CanFoo[Wrapper] and
+// it gets passed as an implicit evidence argument.
 implicit object WrapperCanFoo extends CanFoo[Wrapper] {
   def foos(x: Wrapper) = x.wrapped
 }
