@@ -57,14 +57,14 @@ git reset --hard origin/<branch>
 git clean -f -d
 ```
 
-## Git add all except
+## Add all except
 
 ```
 git add -u
 git reset -- <item-to-remove>
 ```
 
-## Git merge
+## Merge
 
 ```
 git merge <branch> --strategy-option ours # I don't care what's in their branch (usually remote)
@@ -86,9 +86,15 @@ git checkout <feature-branch>
 git rebase <parent branch>
 ```
 
-## Add only tracked files & ignore tracked files
+## Add only files that are already being tracked
 
 ```
 git add -u
 ```
 
+## Cleaning up local references to deprecated remote branches
+
+Note that this will not remove references to local branches!
+
+- `git remote prune origin --dry-run` lists branches that __can__ be deleted/pruned on your local
+- `git remote prune origin` actually executes the prune command
