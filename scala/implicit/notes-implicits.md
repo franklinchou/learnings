@@ -49,15 +49,11 @@ implicit object WrapperCanFoo extends CanFoo[Wrapper] {
 }
 
 def foo[A](thing: A)(implicit evidence: CanFoo[A]) = evidence.foos(thing)
+// This syntactic sugar also works:
+// def foo[A: CanFoo](thing: A) = implicitly[CanFoo[A]].foos(thing)
 
 foo(Wrapper("hi")) // output is "hi" (String)
 foo[Wrapper](Wrapper("hi")) // this is more explicit
-```
-
-This syntactic sugar also works:
-
-```scala
-def foo[A: CanFoo](thing: A) = implicitly[CanFoo[A]].foos(thing)
 ```
 
 Here's some more syntactic sugar:
