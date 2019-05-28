@@ -46,10 +46,10 @@ case class Wrapper(wrapped: String)
 // The evidence object is the only thing in scope of type CanFoo[Wrapper] and
 // it gets passed as an implicit evidence argument.
 implicit object WrapperCanFoo extends CanFoo[Wrapper] {
-  def foos(x: Wrapper) = x.wrapped
+  def foos(x: Wrapper): String = x.wrapped
 }
 
-def foo[A](thing: A)(implicit evidence: CanFoo[A]) = evidence.foos(thing)
+def foo[A](thing: A)(implicit evidence: CanFoo[A]): String = evidence.foos(thing)
 // This syntactic sugar also works:
 // def foo[A: CanFoo](thing: A) = implicitly[CanFoo[A]].foos(thing)
 
