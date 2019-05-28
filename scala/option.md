@@ -31,9 +31,7 @@ Set(a, b).flatten  // returns Set(5)
 
 ## Removing pattern matching on `Option`
 
-Pattern matching on `Option` is almost never necessary.
-Treat `Option` as a collection and use collection functions, e.g., `map`,
-`flatMap`, `filter`, &c. to decompose.
+Pattern matching on `Option` is almost never necessary. See the signature of `map` on the `Option` monad.
 
 This:
 
@@ -42,7 +40,7 @@ opt match {
   case Some(a) => foo(a)
   case None => bar
 }
-```
+``` 
 
 can be decomposed to:
 
