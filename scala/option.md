@@ -21,8 +21,6 @@ for {
 } yield y // returns Some(9)
 ```
 
-Sometimes the value must be lifted in order to transform to Option.
-
 You can also `flatten` to obtain only the values that are defined (`Some` values only).
 
 ```scala
