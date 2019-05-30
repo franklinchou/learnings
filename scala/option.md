@@ -1,6 +1,7 @@
 # Option
 
-Option is a container for zero or one element of a given type. 
+`Option` is a container for zero or one element of a given type. In a way `Option[A]` can be thought of as a collection
+of a single element (of type `A`) or nil.
 An `Option[T]` can be either `Some[T]` or `None` (`None` extends `Option[Nothing]`). 
 
 ## Tiered lazy evaluation with `Option`
@@ -55,3 +56,4 @@ opt.fold(bar)(foo)
 
 
 For more, see [Your Options Don't Match](http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match/).
+
