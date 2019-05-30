@@ -27,7 +27,7 @@ which takes any value and puts the value inside a monad; and
 2. `bind` or `map`, which has a signature, `map[M[_], A, B](a: M[A])(f: A => B): M[B]`, 
 which takes the value inside a monad, applies some function (that maps an unlifted type to another unlifted type)
 and re-packs the result inside the monad; and
-3. `flatMap` or `join` which has a signature, `flatMap[M[_], A, B](a: M[A])(f: A => M[B]): M[B]` which 
+3. `join` or `flatMap` which has a signature, `flatMap[M[_], A, B](a: M[A])(f: A => M[B]): M[B]` which 
 turns a container of containers into a single container.
 
 NOTE: Using monads to enforce control flow. There is an ordering of operations on `map`
