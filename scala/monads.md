@@ -27,10 +27,20 @@ which takes any value and puts the value inside a monad; and
 2. `bind` or `map`, which has a signature, `map[M[_], A, B](a: M[A])(f: A => B): M[B]`, 
 which takes the value inside a monad, applies some function (that maps an unlifted type to another unlifted type)
 and re-packs the result inside the monad; and
-3. `flatMap`, which has a signature, `flatMap[M[_], A, B](a: M[A])(f: A => M[B]): M[B]`,
-which takes the value inside a monad and applies a function that is "context aware", i.e., it expects
-a value inside a context that needs to be unpacked first before it is re-wrapped in a context.
+3. `flatMap` or `join` which has a signature, `flatMap[M[_], A, B](a: M[A])(f: A => M[B]): M[B]` which 
+turns a container of containers into a single container.
 
 NOTE: Using monads to enforce control flow. There is an ordering of operations on `map`
 and repeated operations of `map` create a control structure. One use of monads is to "glue" together
 pure functions with special purpose control flow.
+
+## Free Monads
+
+A monad is something that "computes" when monadic context is collapsed. For example, `flatMap` on a list of lists
+"computes" a single list. This is how Monads carry context through a sequential chain of computations: at each point 
+in the series, the context from the previous call is collapsed with the next.
+
+A free monad satisfies all the Monad laws, but does not do any collapsing (i.e., computation). It just builds 
+up a nested series of contexts. The user who creates such a free monadic value is responsible for doing something 
+with those nested contexts, so that the meaning of such a composition can be deferred until after the monadic 
+value has been created.
