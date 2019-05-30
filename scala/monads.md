@@ -17,10 +17,7 @@ Note especially:
 
 **What is a monad?**
 
-A monad has all the properties of a functor but also includes the `flatMap` function (more generally it is a functor that has a
-`map` function which is "aware of inner contexts"). 
-
-To summarize, monads are data-types that have the following three functions:
+Monads are data-types that have the following three functions:
 
 1. `return` or `lift`, which has a signature, `lift[M[_], A](a: A): M[A]`, 
 which takes any value and puts the value inside a monad; and
@@ -29,6 +26,10 @@ which takes the value inside a monad, applies some function (that maps an unlift
 and re-packs the result inside the monad; and
 3. `join` or `flatMap` which has a signature, `flatMap[M[_], A, B](a: M[A])(f: A => M[B]): M[B]` which 
 turns a container of containers into a single container.
+
+`return` and `map` are shared with functors! That's because a monad has all the properties of a functor 
+but also includes the `flatMap` function (more generally it is a functor 
+that can apply a function that returns a wrapped value to a wrapped value). 
 
 NOTE: Using monads to enforce control flow. There is an ordering of operations on `map`
 and repeated operations of `map` create a control structure. One use of monads is to "glue" together
