@@ -28,10 +28,9 @@ which takes any value and puts the value inside a monad; and
 which takes the value inside a monad, applies some function (that maps an unlifted type to another unlifted type)
 and re-packs the result inside the monad; and
 3. `flatMap`, which has a signature, `flatMap[M[_], A, B](a: M[A])(f: A => M[B]): M[B]`,
-which takes the value inside a monad, applies a function that is "context aware", i.e., the "packing" is done
+which takes the value inside a monad and applies a function that is "context aware", i.e., the "packing" is done
 by the function.
 
 NOTE: Using monads to enforce control flow. There is an ordering of operations on `map`
 and repeated operations of `map` create a control structure. One use of monads is to "glue" together
 pure functions with special purpose control flow.
-
