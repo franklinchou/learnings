@@ -18,8 +18,7 @@ Note especially:
 **What is a monad?**
 
 A monad has all the properties of a functor but also includes the `flatMap` function (more generally it is a functor that has a
-`map` function which is "aware of inner contexts"), the `flatMap` function has a type signature: 
-`flatMap[M[_], A, B](ma: M[A])(f: A => M[B]): M[B])`. 
+`map` function which is "aware of inner contexts"). 
 
 To summarize, monads are data-types that have the following three functions:
 
