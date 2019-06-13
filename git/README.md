@@ -34,7 +34,7 @@ Pick a specific commit without including the history (contrast with `merge` and 
 
 1. `git checkout -b <branch> origin/<branch>` Create a new local branch that tracks a remote. (Note: This command does _not_ fetch updates from `origin`.)
 
-2. `git branch --track <local> origin/<remote>` Create a new local branch to track remote. Note: This will fail if the
+2. `git branch --track <local> origin/<remote>` Create a new local branch that tracks a remote. Note: This will fail if the
 branch name already exists. This will _not_ switch to the newly created branch. To track a remote branch _and_ switch to it, issue: `git checkout -b --track <local> origin/<remote>`.
 
 ## Local out of sync with remote
