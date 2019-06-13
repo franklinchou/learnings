@@ -4,6 +4,13 @@ List the applications using port 80
 
 `lsof -i :80`
 
+## Inspect files
+
+1. Inspect only the first `n` lines of a file using: `head -n <lines> <file>`
+2. Inspect only the last `n` lines, using: `tail -n <lines> <file>`; `tail` can also operate in "follow mode" which 
+watches the text file and prints new lines out to screen where available, "follow mode" can be invoked with:
+`tail -f <file>`.
+
 ## Unset an environment variable
 
 `unset <variable>`
