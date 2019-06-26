@@ -1,17 +1,41 @@
 # Git
 
-## Undoing things
+## Reverting changes to a single file
 
-### Undoing deletion of an uncommitted file
+ Note: The `--` flag indicates to git that the parameter that follows is a file and not a branch. 
 
-`git checkout -- <file>`
+`git checkout -- <file>` If the change is not committed, revert the change to the state that it is on `HEAD`. 
+
+`git checkout <branch> -- <file>` Revert the change to the state that it is on `branch`.
+
+## Removing a file
+
+`git rm <file>` will remove the file _and_ delete it from the local file system
+
+`git rm --cached <file>` will only remove the file from version control
+
+## Renaming a branch
+
+`git branch -m <old> <new>`
+
+## Reverting changes to a branch
+
+`git revert --hard <branch>` E.g., revert the current branch to the state of the supplied `<branch>`.
+
 
 ## Cherry-pick
 
 Pick a specific commit without including the history (contrast with `merge` and `rebase` which apply a history
-(multiple commits) to another branch.
+(multiple commits) to another branch).
 
 `git cherry-pick <commit to apply>`
+
+## Checking out a remote branch
+
+1. `git checkout -b <branch> origin/<branch>` Create a new local branch that tracks a remote. (Note: This command does _not_ fetch updates from `origin`.)
+
+2. `git branch --track <local> origin/<remote>` Create a new local branch that tracks a remote. Note: This will fail if the
+branch name already exists. This will _not_ switch to the newly created branch. To track a remote branch _and_ switch to it, issue: `git checkout -b --track <local> origin/<remote>`.
 
 ## Local out of sync with remote
 
@@ -34,27 +58,44 @@ git reset --hard origin/<branch>
 git clean -f -d
 ```
 
-`git checkout -b <branch> origin/<branch>` 
-^ This command does _not_ fetch updates from `origin`. It creates a new local branch that tracks
-the `origin/<branch>` on _local_.
-
-
-## Git add all except
+## Add all except
 
 ```
 git add -u
 git reset -- <item-to-remove>
 ```
 
-## Set up new local branch to track remote
-```
-git branch --track <local> origin/<remote>
-```
-
-
-## Git merge
+## Merge
 
 ```
-git merge <branch> --strategy-option ours # I don't care what's in remote
-git merge <branch> --strategy-option theirs # I don't care what's in local
+git merge <branch> --strategy-option ours # I don't care what's in their branch (usually remote)
+git merge <branch> --strategy-option theirs # I don't care what's in my branch
 ```
+
+## Keeping a clean commit history with rebase
+
+Rebase resynchs the changes onto the branch in the order that these changes appeared, 
+resulting in a perfectly linear commit history! (See [here](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).)
+In contrast, squash and merge simply appends all the changes to the history. The
+problem with squash and merge is that it "pollutes" the history with a new "merged 
+branch feature into branch master" every time a new commit is added.
+
+```
+git checkout <parent-branch>
+git pull 
+git checkout <feature-branch>
+git rebase <parent branch>
+```
+
+## Add only files that are already being tracked
+
+```
+git add -u
+```
+
+## Cleaning up local references to deprecated remote branches
+
+Note that this will not remove references to local branches! (Only removes branches with `origin/*`.)
+
+- `git remote prune origin --dry-run` lists branches that __can__ be deleted/pruned on your local
+- `git remote prune origin` actually executes the prune command

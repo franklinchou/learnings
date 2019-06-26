@@ -1,6 +1,10 @@
 # Option
 
-## Tiered lazy evaluation with option
+`Option` is a container for zero or one element of a given type. In a way `Option[A]` can be thought of as a collection
+of a single element (of type `A`) or nil.
+An `Option[T]` can be either `Some[T]` or `None` (`None` extends `Option[Nothing]`). 
+
+## Tiered lazy evaluation with `Option`
 
 Would like to set value to `b` but only if `a` is defined.
 
@@ -18,8 +22,6 @@ for {
 } yield y // returns Some(9)
 ```
 
-Sometimes the value must be lifted in order to transform to Option.
-
 You can also `flatten` to obtain only the values that are defined (`Some` values only).
 
 ```scala
@@ -31,9 +33,7 @@ Set(a, b).flatten  // returns Set(5)
 
 ## Removing pattern matching on `Option`
 
-Pattern matching on `Option` is almost never necessary.
-Treat `Option` as a collection and use collection functions, e.g., `map`,
-`flatMap`, `filter`, &c. to decompose.
+Pattern matching on `Option` is almost never necessary. See the signature of `map` on the `Option` monad.
 
 This:
 
@@ -42,7 +42,7 @@ opt match {
   case Some(a) => foo(a)
   case None => bar
 }
-```
+``` 
 
 can be decomposed to:
 
@@ -56,3 +56,4 @@ opt.fold(bar)(foo)
 
 
 For more, see [Your Options Don't Match](http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match/).
+
