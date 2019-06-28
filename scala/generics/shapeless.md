@@ -21,3 +21,7 @@ ChildModel(id: String,
 ```
 
 I can coerce a `ChildModel` into a `BaseModel`.
+
+Shapeless is used for generic programming, i.e., writing programs for types to be specified later.
+Shapeless essentially provides a way to define type-safe "mini-languages" (DSLs) that program the compiler.
+
