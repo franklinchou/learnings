@@ -52,7 +52,7 @@ is not forced to contend with disparate formatting.
     
     // Preferred style where any body is over one line:
     if (condition) {
-      execution, line 1
+      execution, line1
       execution, line2
     } else {
       execution2, line1 // Notice that although the logic in the else block is only 1 line
