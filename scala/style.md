@@ -43,6 +43,24 @@ is not forced to contend with disparate formatting.
                       ) 
     ```
 
+5. Line breaks on `if` statements:
+
+    ```scala
+    // Preferred style where the body of execution is one line
+    if (condition) execution
+    else execution2
+    
+    // Preferred style where any body is over one line:
+    if (condition) {
+      execution, line 1
+      execution, line2
+    } else {
+      execution2, line1 // Notice that although the logic in the else block is only 1 line
+                        // it is still surrounded by curly-braces for readability and to maintain
+                        // in-line style with the beginning if statement
+    }
+    ```
+
 
 ## Naming conventions
 
