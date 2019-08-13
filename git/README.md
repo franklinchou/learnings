@@ -36,7 +36,8 @@ Pick a specific commit without including the history (contrast with `merge` and 
 
 2. `git branch --track <local> origin/<remote>` Create a new local branch that tracks a remote. Note: This will fail if the
 branch name already exists. This will _not_ switch to the newly created branch. To create a local branch tracking a remote
-with the same name as the remote issue: git checkout --track origin/<branch>`.
+with the same name as the remote issue: `git checkout --track origin/<branch>`. Note! If you get `fatal: <branch> is not a commit and a branch cannot be created from it` this means that the remote you're attempting to track doesn't exist! Check that
+there is a remote branch with that name!
 
 ## Local out of sync with remote
 
