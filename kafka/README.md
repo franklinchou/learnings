@@ -2,17 +2,15 @@
 
 ## Basics
 
-Streaming - publish data in real time to a cluster
-
-How to get data from many data sources into cluster?
-
 Kafka = general purpose pub/sub messaging system
 
-Publishers (or producers) -> send data to stream called topic <- topic is listened to by consumers (topic is basically a feed name; a topic writes to a Log which is the topic's storage on disk)
+Publishers (or producers) send data to a topic (or stream) (topics are persisted to disk which can be retrieved with 
+the help of zookeeper). The topic is listened to by consumers. A stream/topic can have many different consumers and each consumer can maintain its own state (its own position in the stream). Single consumer failure is a non-issue since non-failing consumers will rebalance to take over for a missing member.
 
-Topics are managed by a kafka cluster (kafka Brokers form a kafka cluster)
+Topics are managed by a kafka cluster (kafka Brokers form a kafka cluster; kafka brokers = kafka servers). 
+Brokers receive messages from producers and store them to disk. Brokers also receive and respond to fetch requests from consumers
+to retrieve messages from disk. 
 
-A stream/topic can have many different consumers, each consumer can maintain its own state (its own position in the stream)
 
 ## Scalability 
 
