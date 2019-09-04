@@ -2,9 +2,9 @@
 # Then restart the kafka server
 
 parallel-ssh -i -h hosts -x "-i ~/.ssh/PeerTestKafka.pem" \
-  "for f in /var/kafka/*; do sudo rm -rf \"$f\"; done; \
+  "sudo /usr/local/kafka/bin/zookeeper-server-stop.sh; \
   sudo service kafka stop; \
-  sudo /usr/local/kafka/bin/zookeeper-server-stop.sh; \
+  for f in /var/kafka/*; do sudo rm -rf \"$f\"; done; \
   sleep 20; \
   sudo /usr/local/kafka/bin/zookeeper-server-start.sh -daemon /etc/kafka/config/zookeeper.properties; \
   sudo service kafka start"
