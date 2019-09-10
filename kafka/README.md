@@ -55,3 +55,9 @@ Sometimes kafka will fail to start because kafka does not have access to log fil
 ```
 chown -R kafka:kafka /var/kafka
 ```
+
+## Listen for topic on Kafka
+
+```
+./bin/kafka-console-consumer.sh --bootstrap-server <SERVERS> --topci <TOPIC>
+```
