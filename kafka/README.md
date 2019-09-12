@@ -1,5 +1,7 @@
 # Kafka
 
+Uses Kafka 2.12!
+
 ## Basics
 
 Kafka = general purpose pub/sub messaging system
@@ -41,7 +43,7 @@ Occasionally kafka (or zookeeper) will go down. (This will result in lost pods i
 2. Access the binary files in `/usr/local/kafka/bin`
 3. Check if zookeeper is running. (`/usr/local/kafka/bin/zookeeper-shell.sh localhost:2181`)
 4. If zookeeper is not running, start zookeeper by issuing `sudo /usr/local/kafka/bin/zookeeper-server-start.sh -daemon /etc/kafka/config/zookeeper.properties` 
-5. [test] If zookeeper is running, you should get a list of available topics when issuing `/usr/local/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list` 
+5. [test] If zookeeper is running, you should get a list of available topics when issuing `/usr/local/kafka/bin/kafka-topics.sh --bootstrap-server <SERVERS> --list` 
 6. Start kafka (issue `sudo service kafka start`)
 
 ## Deleting logs
