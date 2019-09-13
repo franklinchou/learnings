@@ -30,6 +30,8 @@ bin/kafka-topics.sh --create --bootstrap-server <SERVERS> --replication-factor 3
 bin/kafka-topics.sh --delete --bootstrap-server <SERVERS> --topic <TOPIC>
 ```
 
+Make sure `delete.topic.enable` is enabled for the broker. (This is set to `true` by default.)
+
 
 ## Scalability 
 
