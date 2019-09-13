@@ -12,6 +12,19 @@ Brokers receive messages from producers and store them to disk. Brokers also rec
 to retrieve messages from disk. 
 
 
+## Listening for a topic on Kafka
+
+```
+./bin/kafka-console-consumer.sh --bootstrap-server <SERVERS> --topic <TOPIC>
+```
+
+## Creating a new topic 
+
+```
+bin/kafka-topics.sh --create --bootstrap-server <SERVERS> --replication-factor 3 --partitions 1 --topic <TOPIC>
+```
+
+
 ## Scalability 
 
 Both consumers and producers are scalable
@@ -56,8 +69,3 @@ Sometimes kafka will fail to start because kafka does not have access to log fil
 chown -R kafka:kafka /var/kafka
 ```
 
-## Listening for a topic on Kafka
-
-```
-./bin/kafka-console-consumer.sh --bootstrap-server <SERVERS> --topic <TOPIC>
-```
