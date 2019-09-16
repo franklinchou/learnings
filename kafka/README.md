@@ -26,6 +26,8 @@ to retrieve messages from disk.
 bin/kafka-topics.sh --create --bootstrap-server <SERVERS> --replication-factor 3 --partitions 1 --topic <TOPIC>
 ```
 
+Test to see it the topic was created by issuing: `bin/kafka-topics.sh --bootstrap-server <SERVERS> --list`. 
+
 ## Deleting a topic
 
 ```
