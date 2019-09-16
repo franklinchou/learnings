@@ -7,8 +7,9 @@ Commands unique to the Vertica analytic database platform
 Table information is stored in `ALL_TABLES`.
 
 ```sql
+-- Search for all `processedtu` tables with `monthly` granularity
 SELECT *
 FROM ALL_TABLES
 WHERE table_name
-LIKE '%processedtu%';
+LIKE '%processedtu%_%monthly%';
 ```
