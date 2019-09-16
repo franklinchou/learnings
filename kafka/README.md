@@ -15,23 +15,11 @@ to retrieve messages from disk.
 
 ## Topic Management 
 
-- Listening for a topic on Kafka
+- Listening for a topic on Kafka: `./bin/kafka-console-consumer.sh --bootstrap-server <SERVERS> --topic <TOPIC>`
 
-```
-./bin/kafka-console-consumer.sh --bootstrap-server <SERVERS> --topic <TOPIC>
-```
+- Creating a new topic: `bin/kafka-topics.sh --create --bootstrap-server <SERVERS> --replication-factor 3 --partitions 1 --topic <TOPIC>`
 
-- Creating a new topic 
-
-```
-bin/kafka-topics.sh --create --bootstrap-server <SERVERS> --replication-factor 3 --partitions 1 --topic <TOPIC>
-```
-
-- Deleting a topic
-
-```
-bin/kafka-topics.sh --delete --bootstrap-server <SERVERS> --topic <TOPIC>
-```
+- Deleting a topic: `bin/kafka-topics.sh --delete --bootstrap-server <SERVERS> --topic <TOPIC>`
 
 Make sure `delete.topic.enable` is enabled for the broker. (This is set to `true` by default.)
 
