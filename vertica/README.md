@@ -1,8 +1,8 @@
 # Vertica Commands
 
-Commands unique to the Vertica analytic database platform
+Commands unique to the Vertica analytical database platform
 
-## Get certain type of table name
+## Get table names
 
 Table information is stored in `ALL_TABLES`.
 
