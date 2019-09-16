@@ -13,20 +13,21 @@ Topics are managed by a kafka cluster (kafka Brokers form a kafka cluster; kafka
 Brokers receive messages from producers and store them to disk. Brokers also receive and respond to fetch requests from consumers
 to retrieve messages from disk. 
 
+## Topic Management 
 
-## Listening for a topic on Kafka
+- Listening for a topic on Kafka
 
 ```
 ./bin/kafka-console-consumer.sh --bootstrap-server <SERVERS> --topic <TOPIC>
 ```
 
-## Creating a new topic 
+- Creating a new topic 
 
 ```
 bin/kafka-topics.sh --create --bootstrap-server <SERVERS> --replication-factor 3 --partitions 1 --topic <TOPIC>
 ```
 
-## Deleting a topic
+- Deleting a topic
 
 ```
 bin/kafka-topics.sh --delete --bootstrap-server <SERVERS> --topic <TOPIC>
