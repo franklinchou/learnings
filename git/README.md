@@ -22,6 +22,11 @@
 
 `git revert --hard <branch>` E.g., revert the current branch to the state of the supplied `<branch>`.
 
+## Accidentally deleting a branch
+
+If the branch was just deleted, the prompt should indicate: `Deleted branch <name> (was <sha>).`
+To restore that branch, just issue: `git checkout -b <name> <sha>`.
+
 
 ## Cherry-pick
 
