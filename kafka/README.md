@@ -41,6 +41,18 @@ Both consumers and producers are scalable
 
 Zookeeper manages the scalability of the Kafka cluster
 
+## Getting the size of partitions
+
+A good rule of thumb is that parition size should be limited to > 6Gb per day of retention. Use the following command
+to retreive the size of each individual partition:
+
+```
+/bin/kafka-log-dirs.sh --describe --bootstrap-server <SERVERS> --topic-list <TOPIC>
+```
+
+Note: Size is in bytes!
+
+
 ## Checking on zookeeper
 
 Check on the status of zookeeper in a broker on the cluster by ssh-ing onto the machine and issuing: 
