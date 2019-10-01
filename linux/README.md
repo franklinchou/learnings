@@ -1,5 +1,28 @@
 # Useful \*Nix commands
 
+## `inotify` watch limit reached
+
+Inotify (inode notify) is a Linux kernel subsystem that acts to extend filesystems to notice changes to the filesystem,
+and report those changes to applications. When the number of inotify watches is not enough to monitor all the desired
+files to be watched, a inotify watch limit error is thrown.
+
+To see what is using the inotify watches issue:
+
+```
+find /proc/*/fd -lname anon_inode:inotify 2>/dev/null |
+   cut -d/ -f3 |
+   xargs -I '{}' -- ps --no-headers -o '%p %U %c' -p '{}' |
+   uniq -c |
+   sort -nr
+```
+
+Other useful commands:
+- `cat /proc/sys/fs/inotify/max_user_watches` - determine the total number of watches (in Ubuntu 18.04, the default is 8194)
+- `sudo sysctl fs.inotify.max_user_watches=<WATCHES>` Temporarily increase the number of watches (will reset when the
+machine is restarted)
+
+
+
 ## List applications using a port
 
 List the applications using port 80
