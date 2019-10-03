@@ -62,7 +62,7 @@ Or, from the local branch that is out of sync, issue:
 ```
 git fetch origin
 git reset --hard origin/<branch>
-git clean -f -d
+git clean -f -d  # remove untracked files from local 
 ```
 
 ## Add all except
