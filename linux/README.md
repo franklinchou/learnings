@@ -1,5 +1,10 @@
 # Useful \*Nix commands
 
+## Count number of * in a file
+
+- Count number of lines: `wc -l <file>`
+- Count number of words: `wc -w <file>`
+
 ## `inotify` watch limit reached
 
 Inotify (inode notify) is a Linux kernel subsystem that acts to extend filesystems to notice changes to the filesystem,
