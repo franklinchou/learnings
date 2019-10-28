@@ -8,6 +8,10 @@
 
 `git checkout <branch> -- <file>` Revert the change to the state that it is on `branch`.
 
+Tip! When there are a lot of files that need to be committed and a couple that need to be ignored:
+- Commit all (`git add *`)
+- Then reset the files that should be ignored (`git reset <file>`)
+
 ## Removing a file
 
 `git rm <file>` will remove the file _and_ delete it from the local file system
