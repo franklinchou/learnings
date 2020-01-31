@@ -9,7 +9,7 @@ be built (i.e., the source code). Build an image by issuing: `docker build -t {{
 - `context` is the directory where the sources files are located; this is generally `.` (i.e., the current working directory)
 - `docker-file-location` = `/path/to/Dockerfile`, generally this is `deploy/Dockerfile`
 
-The result of this will be a built docker *image*. You can find images by issuing `docker images ls`.
+The result of this will be a built docker *image*. You can find images by issuing `docker images` (or `docker image ls`).
 
 
 ## Expose local directory to docker container
