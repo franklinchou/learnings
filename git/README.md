@@ -98,6 +98,9 @@ git checkout <feature-branch>
 git rebase <parent branch>
 ```
 
+You can also squash unwanted commits by issuing `git rebase -i HEAD~<n>`, where `n` is the number of commits to 
+look back at. 
+
 ## Add only files that are already being tracked
 
 ```
