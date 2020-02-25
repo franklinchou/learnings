@@ -7,20 +7,18 @@ be built (i.e., the source code). Build an image by issuing: `docker build -t {{
 
 - `image-name` will be the docker image tag (can be in the `name:tag` format)
 - `context` is the directory where the sources files are located; this is generally `.` (i.e., the current working directory)
-- `docker-file-location` = `/path/to/Dockerfile`, generally this is `deploy/Dockerfile`
+- `docker-file-location` = `/path/to/Dockerfile`, generally this is `{{project_root}}/deploy/Dockerfile`
 
 The result of this will be a built docker *image*. You can find images by issuing `docker images` (or `docker image ls`).
 
 
 ## Expose local directory to docker container
 
-Expose a directory (volume) to the docker container from the host 
+Expose a directory (volume) to the docker container from the host (see docker-compose `volume` tag)
 
 `docker run -v /host/directory:/container/directory`
 
 **NOTE**: For `/container/directory/` substitute something like `/opt/artifacts` or `/opt/resources`.
-
-You can also do this with docker compose using the `volume` command.
 
 
 ## Removing images
