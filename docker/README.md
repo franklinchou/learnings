@@ -20,6 +20,8 @@ Expose a directory (volume) to the docker container from the host
 
 **NOTE**: For `/container/directory/` substitute something like `/opt/artifacts` or `/opt/resources`.
 
+You can also do this with docker compose using the `volume` command.
+
 
 ## Removing images
 1. First stop any running containers (`docker stop {{container-name}}`)
