@@ -1,1 +1,8 @@
 scala/target/*
+
+ml/setenv.sh
+ml/venv/*
+
+aws/venv/*
+
+**/*.ipynb_checkpoints/
