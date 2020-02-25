@@ -14,7 +14,7 @@ The result of this will be a built docker *image*. You can find images by issuin
 
 ## Expose local directory to docker container
 
-Expose a directory (volume) to the docker container from the host (see docker-compose `volume` tag)
+Expose a directory (volume) to the docker container from the host (see also docker-compose `volume` tag)
 
 `docker run -v /host/directory:/container/directory`
 
