@@ -16,6 +16,7 @@ Getting around in MS Word like a boss
   * Copy and paste formatting of the selected text, `Ctrl + Shift + C` and `Ctrl + Shift + V` 
 * Paste text only, `Alt + H, V, T`
 * Track changes:
+  * Toggle track changes, `Ctrl + Shift + E`
   * Bring up Reject submenu, `Alt + R, J`
   * Bring up Accept submenu, `Alt + R, A`
-  * Toggle track changes, `Ctrl + Shift + E`
+  
