@@ -15,3 +15,7 @@ Getting around in MS Word like a boss
     * Format all letters as uppercase, `Ctrl + Shift + A` (not as useful as `Shift + F3`)
   * Copy and paste formatting of the selected text, `Ctrl + Shift + C` and `Ctrl + Shift + V` 
 * Paste text only, `Alt + H, V, T`
+* Track changes:
+  * Bring up Reject submenu, `Alt + R, J`
+  * Bring up Accept submenu, `Alt + R, A`
+  * Toggle track changes, `Ctrl + Shift + E`
