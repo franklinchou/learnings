@@ -4,6 +4,7 @@ Getting around in MS Word like a boss
 
 * Insert new page section break, `Alt + P, B, N`
 * Formatting:
+  * Show formatting, `Ctrl + Shift + 8`
   * Remove all manual formatting, `Ctrl + Space`
   * Apply heading style, `Ctrl + Alt + [n]`, where `n` is the heading style, e.g., Heading 1 (`Ctrl + Alt + 1`)
   * View Reveal Formatting dialog window, `Shift + F1`
