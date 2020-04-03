@@ -15,7 +15,7 @@ Getting around in MS Word like a boss
     * Cycle through different case formats, `Shift + F3` (Title Case, all lower case, ALL UPPER CASE)
     * Format all letters as uppercase, `Ctrl + Shift + A` (not as useful as `Shift + F3`)
   * Copy and paste formatting of the selected text, `Ctrl + Shift + C` and `Ctrl + Shift + V` 
-* Paste text only, `Alt + H, V, T`
+  * Paste text only, `Alt + H, V, T`
 * Track changes:
   * Toggle track changes, `Ctrl + Shift + E`
   * Bring up Reject submenu, `Alt + R, J`
