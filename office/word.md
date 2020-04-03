@@ -20,4 +20,5 @@ Getting around in MS Word like a boss
   * Toggle track changes, `Ctrl + Shift + E`
   * Bring up Reject submenu, `Alt + R, J`
   * Bring up Accept submenu, `Alt + R, A`
+* Go to page: `F5`
   
