@@ -1,4 +1,4 @@
-Sub ChangeCommentName()
+Sub ChangeAuthorCommentsAndRevisions()
 '
 ' Change all the tracked changes and comments in a document
 ' labeled with a given author to a new author
