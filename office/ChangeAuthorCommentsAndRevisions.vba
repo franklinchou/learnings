@@ -29,7 +29,6 @@ If ActiveDocument.Revisions.Count = 0 And ActiveDocument.Comments.Count = 0 Then
     Exit Sub
 End If
 
-
 Dim r As Variant
 r = InputBox("Old author name? (Defaults to Author)", "Old Author Name")
 If r = 0 Then
@@ -88,7 +87,6 @@ For Each myComment In cComment
     myComment.DeleteRecursively
     
     If cRange.StoryType = wdMainTextStory Then
-        'revRange.Select
         ActiveDocument.StoryRanges(wdMainTextStory).Comments.Add _
             cRange, cText
     End If
