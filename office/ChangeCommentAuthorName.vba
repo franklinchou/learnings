@@ -40,7 +40,7 @@ End If
 
 r = InputBox("New author name?", "New Author Name")
 If r = 0 Or r = "" Then
-    MsgBox "Input new author name!", vbOkayOnly, "Cannot perform action"
+    MsgBox "Input new author name!", vbokayonly, "Cannot perform action"
     Exit Sub
 Else
     sNewAuthor = r
@@ -83,9 +83,12 @@ For Each myRev In cDel
     revRange.Delete
 Next
 
+
 For Each myComment In cComment
     
     Set revRange = myComment.Range
+    cText = myComment.Range.Text
+    Set cRange = myComment.Scope
     
     ' TODO Fix this to support reply migration
     If myComment.Replies.Count > 0 Then
@@ -93,8 +96,12 @@ For Each myComment In cComment
     End If
     
     myComment.DeleteRecursively
-    ActiveDocument.Comments.Add _
-        revRange, revRange.Text
+    
+    If cRange.StoryType = wdMainTextStory Then
+        'revRange.Select
+        ActiveDocument.StoryRanges(wdMainTextStory).Comments.Add _
+            cRange, cText
+    End If
 Next
 
 Application.UserName = sCurrentAuthor
