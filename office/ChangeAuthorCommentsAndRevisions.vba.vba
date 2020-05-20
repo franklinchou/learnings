@@ -4,9 +4,10 @@ Sub ChangeAuthorCommentsAndRevisions()
 ' labeled with a given author to a new author
 '
 
+Application.ScreenUpdating = False
+
 Dim sCurrentAuthor As String
 Dim sOldAuthor As String
-Dim sNewAuthor As String
 Dim sRevision As String
 
 Dim TCStatus As Boolean
@@ -38,16 +39,8 @@ Else
     sOldAuthor = r
 End If
 
-r = InputBox("New author name?", "New Author Name")
-If r = 0 Or r = "" Then
-    MsgBox "Input new author name!", vbokayonly, "Cannot perform action"
-    Exit Sub
-Else
-    sNewAuthor = r
-End If
 
 BCStatus = ActiveDocument.TrackRevisions
-sCurrentAuthor = Application.UserName
 
 ActiveDocument.TrackRevisions = True
 
@@ -68,8 +61,6 @@ For Each myComment In ActiveDocument.Comments
     End If
 Next
 
-Application.UserName = sNewAuthor
-
 For Each myRev In cIns
     Set revRange = myRev.Range
     myText = revRange.Text
@@ -82,7 +73,6 @@ For Each myRev In cDel
     myRev.Reject
     revRange.Delete
 Next
-
 
 For Each myComment In cComment
     
@@ -104,8 +94,6 @@ For Each myComment In cComment
     End If
 Next
 
-Application.UserName = sCurrentAuthor
 ActiveDocument.TrackRevisions = BCStatus
-
 
 End Sub
