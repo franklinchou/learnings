@@ -11,6 +11,7 @@ Dim sOldAuthor As String
 Dim sRevision As String
 
 Dim TCStatus As Boolean
+Dim BCStatus As Boolean
 
 Dim myRange As Range
 Dim revRange As Range
@@ -38,7 +39,6 @@ ElseIf r = "" Then
 Else
     sOldAuthor = r
 End If
-
 
 BCStatus = ActiveDocument.TrackRevisions
 
