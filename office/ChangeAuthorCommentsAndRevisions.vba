@@ -60,6 +60,8 @@ For Each myComment In ActiveDocument.Comments
     End If
 Next
 
+' Reassign author for insertions
+Set revRange = Nothing
 For Each myRev In cIns
     Set revRange = myRev.Range
     myText = revRange.Text
@@ -67,6 +69,8 @@ For Each myRev In cIns
     revRange.InsertAfter myText
 Next
 
+' Reassign author for deletions
+Set revRange = Nothing
 For Each myRev In cDel
     Set revRange = myRev.Range
     myRev.Reject
