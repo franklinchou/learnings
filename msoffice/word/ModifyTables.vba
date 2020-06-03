@@ -56,7 +56,7 @@ Dim intTableIndex As Integer
 
 intTableIndex = GetTableIndex
 
-If intTableIndex < 1 Then
+If intTableIndex > 1 Then
     GetRowsInTable = ActiveDocument.Tables(intTableIndex).Rows.Count
 Else
     GetRowsInTable = -1
@@ -72,8 +72,9 @@ Function GetTableIndex() As Integer
 If Selection.Information(wdWithInTable) Then
     GetTableIndex = ActiveDocument.Range(0, Selection.Tables(1).Range.End).Tables.Count
 Else
-    ' MsgBox "No table selected!", vbCritical
     GetTableIndex = -1
 End If
 
 End Function
+
+
