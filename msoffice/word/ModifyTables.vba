@@ -7,9 +7,17 @@ Sub InsertRowsToTable()
 
 Dim intRowsToAdd As Integer
 Dim intRowsAdded As Integer
+Dim intCurrentRows As Integer
 Dim strMessage As String
 
-strMessage = "There are " & GetRowsInTable & " rows in the selected table." & vbCrLf
+intCurrentRows = GetRowsInTable
+
+If intCurrentRows < 1 Then
+    MsgBox "No table selected!", vbCritical
+    Exit Sub
+End If
+
+strMessage = "There are " & intCurrentRows & " rows in the selected table." & vbCrLf
 strMessage = strMessage & "How many rows should be inserted?"
 
 intRowsToAdd = InputBox(strMessage)
@@ -29,9 +37,14 @@ Dim intRowsInTable As Integer
 
 intRowsInTable = GetRowsInTable
 
-MsgBox _
-    "There are " & intRowsInTable - 1 & " rows in the selected table " & _
-    "(" & intRowsInTable & " including header)."
+If intRowsInTable < 1 Then
+    MsgBox "No table selected!", vbCritical
+    Exit Sub
+Else
+    MsgBox _
+        "There are " & intRowsInTable - 1 & " rows in the selected table " & _
+        "(" & intRowsInTable & " including header)."
+End If
 End Sub
 
 
@@ -39,7 +52,15 @@ Function GetRowsInTable() As Integer
 '
 ' Get the number of rows in a table
 
-GetRowsInTable = ActiveDocument.Tables(GetTableIndex).Rows.Count
+Dim intTableIndex As Integer
+
+intTableIndex = GetTableIndex
+
+If intTableIndex < 1 Then
+    GetRowsInTable = ActiveDocument.Tables(intTableIndex).Rows.Count
+Else
+    GetRowsInTable = -1
+End If
 
 End Function
 
@@ -51,7 +72,7 @@ Function GetTableIndex() As Integer
 If Selection.Information(wdWithInTable) Then
     GetTableIndex = ActiveDocument.Range(0, Selection.Tables(1).Range.End).Tables.Count
 Else
-    MsgBox "No table selected!", vbCritical
+    ' MsgBox "No table selected!", vbCritical
     GetTableIndex = -1
 End If
 
