@@ -3,6 +3,10 @@ scala/target/*
 ml/setenv.sh
 ml/venv/*
 
+google-free/youtube/setenv.sh
+google-free/youtube/venv/*
+google-free/youtube/.env
+
 aws/venv/*
 
 **/*.ipynb_checkpoints/

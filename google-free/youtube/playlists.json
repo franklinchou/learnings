@@ -1,0 +1,373 @@
+{
+  "etag": "woYkRhlrzZCR6XHyKTZPVf4Vnbo",
+  "items": [
+    {
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "etag": "17INu66P3RjwXkjRvpZPK4mcZTc",
+      "id": "PL0WFr828oRc0LNlYbj6IwXFQ1ASgFlkFF",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "Downtempo Electronic Dance Vibes - Vol 1. (Apr 2020)"
+        },
+        "publishedAt": "2020-04-15T02:54:45Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/lLVJV7iEss0/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/lLVJV7iEss0/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/lLVJV7iEss0/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/lLVJV7iEss0/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/lLVJV7iEss0/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "Downtempo Electronic Dance Vibes - Vol 1. (Apr 2020)"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 6
+      },
+      "etag": "78aWecC7IbX4JXmIGlJRzgABl28",
+      "id": "PL0WFr828oRc006g23Rno8k7ngih4E9jy8",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "style"
+        },
+        "publishedAt": "2020-03-21T01:41:18Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/5rvBOOCLpi0/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/5rvBOOCLpi0/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/5rvBOOCLpi0/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/5rvBOOCLpi0/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/5rvBOOCLpi0/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "style"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 25
+      },
+      "etag": "7uJA4ZO__S8MF8_6TpyQxQThtjM",
+      "id": "PL0WFr828oRc0Ws7EPSJM4CkaHeWbwxxU6",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "finance & economics"
+        },
+        "publishedAt": "2019-03-18T04:03:46Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/WLFie-i8VCY/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/WLFie-i8VCY/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/WLFie-i8VCY/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/WLFie-i8VCY/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/WLFie-i8VCY/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "finance & economics"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 5
+      },
+      "etag": "NJuaGsGOUHKvcJ5dk31zkB0i8VM",
+      "id": "PL0WFr828oRc3jSfv8BN64tGZ1TNlRTPDX",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "The Barry Ickow Experience"
+        },
+        "publishedAt": "2019-02-02T16:30:39Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/hXTwi0_q5bE/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/hXTwi0_q5bE/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/hXTwi0_q5bE/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/hXTwi0_q5bE/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/hXTwi0_q5bE/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "The Barry Ickow Experience"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 90
+      },
+      "etag": "ZAvqKCGEa87vG4PirBlwgkuhC8k",
+      "id": "PL0WFr828oRc1vqQD2rqH3WULTxZqq4pZn",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "documentaries"
+        },
+        "publishedAt": "2018-08-18T04:30:16Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/gMqZR3pqMjg/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/gMqZR3pqMjg/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/gMqZR3pqMjg/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/gMqZR3pqMjg/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/gMqZR3pqMjg/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "documentaries"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 50
+      },
+      "etag": "jWqAp76WIZyl7LgUSPsdtAaxyw0",
+      "id": "PL0WFr828oRc0cEaVf0-lZrF76i3Um-cjB",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "watches"
+        },
+        "publishedAt": "2017-12-13T03:32:46Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/ZT9rvtlk_yc/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/ZT9rvtlk_yc/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/ZT9rvtlk_yc/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/ZT9rvtlk_yc/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/ZT9rvtlk_yc/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "watches"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 14
+      },
+      "etag": "2XECvW6mvXMDr8ZIgMFY7dAH63o",
+      "id": "PL0WFr828oRc1VSZY8CAWeZNO_A_-II6qV",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "Gun shit"
+        },
+        "publishedAt": "2017-08-12T14:25:31Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/gPXDwi7O0jg/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/gPXDwi7O0jg/hqdefault.jpg",
+            "width": 480
+          },
+          "maxres": {
+            "height": 720,
+            "url": "https://i.ytimg.com/vi/gPXDwi7O0jg/maxresdefault.jpg",
+            "width": 1280
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/gPXDwi7O0jg/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/gPXDwi7O0jg/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "Gun shit"
+      }
+    },
+    {
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "etag": "L3iZit36t2z4k2suvckcRS3mb_Q",
+      "id": "PL0WFr828oRc3bstbkPSdAWwh3pE1FMElp",
+      "kind": "youtube#playlist",
+      "snippet": {
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw",
+        "channelTitle": "Franklin Chou",
+        "description": "",
+        "localized": {
+          "description": "",
+          "title": "My Guitar Covers"
+        },
+        "publishedAt": "2016-08-28T23:23:30Z",
+        "thumbnails": {
+          "default": {
+            "height": 90,
+            "url": "https://i.ytimg.com/vi/yI6yi6I79A4/default.jpg",
+            "width": 120
+          },
+          "high": {
+            "height": 360,
+            "url": "https://i.ytimg.com/vi/yI6yi6I79A4/hqdefault.jpg",
+            "width": 480
+          },
+          "medium": {
+            "height": 180,
+            "url": "https://i.ytimg.com/vi/yI6yi6I79A4/mqdefault.jpg",
+            "width": 320
+          },
+          "standard": {
+            "height": 480,
+            "url": "https://i.ytimg.com/vi/yI6yi6I79A4/sddefault.jpg",
+            "width": 640
+          }
+        },
+        "title": "My Guitar Covers"
+      }
+    }
+  ],
+  "kind": "youtube#playlistListResponse",
+  "pageInfo": {
+    "resultsPerPage": 50,
+    "totalResults": 8
+  }
+}

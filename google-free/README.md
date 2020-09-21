@@ -1,4 +1,4 @@
-#Google Free
+# Google Free
 
 Deciding to get rid of my Google account (for a host of
 reasons including privacy and security).
