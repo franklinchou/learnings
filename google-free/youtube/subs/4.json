@@ -1,0 +1,1286 @@
+{
+  "nextPageToken": "CMgBEAA", 
+  "kind": "youtube#SubscriptionListResponse", 
+  "items": [
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-OnnQkZQXnOw/AAAAAAAAAAI/AAAAAAAAAAA/VGRuj2rVObQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-OnnQkZQXnOw/AAAAAAAAAAI/AAAAAAAAAAA/VGRuj2rVObQ/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-OnnQkZQXnOw/AAAAAAAAAAI/AAAAAAAAAAA/VGRuj2rVObQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Jen Widerstrom", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCpmwuJ34-cTm7D8bVxbE4EQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-05-21T15:14:11Z", 
+        "description": ""
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "qSAJLR6pl3-JUzA3UziH8bdojd0", 
+      "id": "ZBubzYxboD6y52aP1lMqewkg7DekP-nQIbh5UTCj9zA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-Ax_X6ZUtydg/AAAAAAAAAAI/AAAAAAAAAAA/EZVUdw_Tgv4/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-Ax_X6ZUtydg/AAAAAAAAAAI/AAAAAAAAAAA/EZVUdw_Tgv4/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-Ax_X6ZUtydg/AAAAAAAAAAI/AAAAAAAAAAA/EZVUdw_Tgv4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "S T A Y F O R E V E R F R E S H N Y C", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCq4P_7OJThRf32jo_2T8Nqw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-05-30T23:01:50Z", 
+        "description": "a l w a y s h o m e\nc o r o n o c u r e s t h o\n\nSubscribe to show love.\n\nSubmit your own music here:\nstayforeverfresh@gmail.com"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "8odrhaRuVLKhr-J0Up5s3eEmrk8", 
+      "id": "ZBubzYxboD6y52aP1lMqe0Iy1Ea5IYAKj3kklXlGEHw"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-BLx2wNze5fA/AAAAAAAAAAI/AAAAAAAAAAA/X8-KuTlM6pk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-BLx2wNze5fA/AAAAAAAAAAI/AAAAAAAAAAA/X8-KuTlM6pk/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-BLx2wNze5fA/AAAAAAAAAAI/AAAAAAAAAAA/X8-KuTlM6pk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "DJENFERNO TV", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UChEPaxRc7cUikccWahBjGwA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-12-04T04:21:10Z", 
+        "description": "DJ's, Producers, #LiveRemixers (and all aspiring artists)...welcome to DJENFERNO TV!  \n\nOn this channel, you'll learn about DJ'ing, Music Production, and Music Technology.  Whether you're trying to learn the basics, or you're trying to build on your current skills, this channel will help you level up on your TECHNIQUE and TECHNOLOGY.\n\nSUBSCRIBE to DJENFERNO TV here:\nhttps://bit.ly/2xHwXZ9\n\nHere's a list of some of the upcoming content pieces:\n\n1. Live Remix and DJ tutorials\n2. DJ tips, tricks, and techniques\n3. Music Production tips, tricks, and workflows\n4. Interactive Live Remixes/Performances, and Music Productions - Ideas and sounds given by subscribers and followers\n5. Hardware (DJ and music tech equipment) and software reviews\n6. Inside-look VLOGS on DJ and event gigs \n\nWhat else would you like to see? Go to this video and let me know in the comments:\nhttps://www.youtube.com/watch?v=FCYw3Atej9o"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "wdz_TPvJm6Ez0a_B3G1XckrC74w", 
+      "id": "ZBubzYxboD6y52aP1lMqe8jsATu8HRq3taNWJ8fV27w"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/--T1Tjcptv10/AAAAAAAAAAI/AAAAAAAAAAA/mfpng9MVV54/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/--T1Tjcptv10/AAAAAAAAAAI/AAAAAAAAAAA/mfpng9MVV54/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/--T1Tjcptv10/AAAAAAAAAAI/AAAAAAAAAAA/mfpng9MVV54/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Simone Giertz", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC3KEoMzNz8eYnwBC34RaKCQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-04-19T01:31:08Z", 
+        "description": "Maker/robotics enthusiast/non-engineer. Have become somewhat of an expert in shitty robots.\n\nSwedish but sound American just to confuse you.\n\nWant to send me something? All poop-free packages go here:\n\n60 29th St. \nSuite #217\nSan Francisco, \nCA 94110"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "ee-Sh_EsnlsLnfUWxybbbpRArmE", 
+      "id": "ZBubzYxboD6y52aP1lMqe3ULezbKOwFQnpY2vVZk1o0"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-x912uiy21qw/AAAAAAAAAAI/AAAAAAAAAAA/Uo6pHfv5V0c/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-x912uiy21qw/AAAAAAAAAAI/AAAAAAAAAAA/Uo6pHfv5V0c/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-x912uiy21qw/AAAAAAAAAAI/AAAAAAAAAAA/Uo6pHfv5V0c/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "George Barnett", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC6p9fCyILda824C9KgKgGeA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2014-11-27T17:41:42Z", 
+        "description": "British musician"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "xqsiNXlAhhfrxXDqhACb_dDKXHI", 
+      "id": "ZBubzYxboD6y52aP1lMqewzqVJ2Y6N6bBDqMnch5J80"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-moy7q66uDVs/AAAAAAAAAAI/AAAAAAAAAAA/3kiAD7O0Q_E/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-moy7q66uDVs/AAAAAAAAAAI/AAAAAAAAAAA/3kiAD7O0Q_E/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-moy7q66uDVs/AAAAAAAAAAI/AAAAAAAAAAA/3kiAD7O0Q_E/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Vox", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCLXo7UDZvByw2ixzpQCufnA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2017-06-25T01:17:22Z", 
+        "description": "Vox helps you cut through the noise and understand what's driving events in the headlines and in our lives.\n\nVox video is Joe Posner, Mona Lalwani, Valerie Lapinski, Dion Lee, Ashley Sather, Joss Fong, Estelle Caswell, Adam Freelander, Kim Mas, Coleman Lowndes, Christophe Haubursin, Mac Schneider, Sam Ellis, Ranjani Chakraborty, Liz Scheltens, Phil Edwards, Bridgett Henwood, Rajaa Elidissi, Christina Thornell, Danush Parvaneh, Madeline Marshall, Laura Bult and Melissa Hirsch, with contributions from Johnny Harris and engagement support from Agnes Mazur and Blair Hickman. \n\nIf you want to help Vox video create more ambitious explainers and series that teach you things about the world, become a member of the Vox Video Lab: http://www.vox.com/join \n\nCheck out our FAQ on permissions and licensing of our videos: https://www.voxmedia.com/pages/licensing\n\u2709\ufe0f Write us: voxvideo@vox.com\n\u2709\ufe0f For questions about the Video Lab: videolab@voxmedia.com"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "Z-IRR_kigNVhmIWXtun9I8DaQvA", 
+      "id": "ZBubzYxboD6y52aP1lMqe0VuOet0u_10XBq7Xlyd9gA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-kcUWC_vVVZM/AAAAAAAAAAI/AAAAAAAAAAA/uoXfM1E5by8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-kcUWC_vVVZM/AAAAAAAAAAI/AAAAAAAAAAA/uoXfM1E5by8/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-kcUWC_vVVZM/AAAAAAAAAAI/AAAAAAAAAAA/uoXfM1E5by8/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "BoBeats", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCFTK8Oiiny_vt4tzZkM4X0A"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-05-06T04:53:56.039000Z", 
+        "description": "Welcome to Bobeats! I make video about music production, synthesizers and creativity!"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "OCqQkjIhTsBH-sHt1ahIJJDC9Iw", 
+      "id": "ZBubzYxboD6y52aP1lMqe50A9yVGtC1hh7GZCVBOyk8"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-jElZ_zBOqpA/AAAAAAAAAAI/AAAAAAAAAAA/HgnWaHJrsss/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-jElZ_zBOqpA/AAAAAAAAAAI/AAAAAAAAAAA/HgnWaHJrsss/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-jElZ_zBOqpA/AAAAAAAAAAI/AAAAAAAAAAA/HgnWaHJrsss/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Norby Hofner", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC0i_4dvvdqkzjyMAIyEs3Tg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2018-08-18T01:08:44.875000Z", 
+        "description": "Beatles bass cover  Beatles cover  Beatles bass\n\"As a left handed child I started to practice on a right-handed guitar.\nI picked up the guitar upside down and learned to play with the strings reversed!\""
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "LbNWzlnQaI6xLUbPu4qEeCFgvdo", 
+      "id": "ZBubzYxboD4pWdAgnw_fRtkvA1RyDq6ldRaW07YgYFI"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-rjqQYGLH7JI/AAAAAAAAAAI/AAAAAAAAAAA/5sz8q9Fmq7o/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-rjqQYGLH7JI/AAAAAAAAAAI/AAAAAAAAAAA/5sz8q9Fmq7o/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-rjqQYGLH7JI/AAAAAAAAAAI/AAAAAAAAAAA/5sz8q9Fmq7o/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "KQED News", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC0FISFbEaHFc5ccrIgkZ3mg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2018-10-14T13:50:19.593000Z", 
+        "description": "Insightful Bay Area news, in-depth coverage from The California Report, conversations on Forum, NPR, PBS and more from Northern California."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "Wc3Hs69d_0Lt42E7YBgo3BOqwJE", 
+      "id": "ZBubzYxboD6y52aP1lMqe1GRnLFU99ALSKYnp2j2cpk"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-tZxu1xN73MY/AAAAAAAAAAI/AAAAAAAAAAA/l7rr8wPve70/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-tZxu1xN73MY/AAAAAAAAAAI/AAAAAAAAAAA/l7rr8wPve70/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-tZxu1xN73MY/AAAAAAAAAAI/AAAAAAAAAAA/l7rr8wPve70/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "COLORS", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC2Qw1dzXDBAZPwS7zm37g8g"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2018-06-22T19:23:55.962000Z", 
+        "description": "COLORS is a unique aesthetic music platform showcasing exceptional talent from all around the globe, focused on promoting the most distinctive new artists and original sounds.\n\n@colorsxstudios on all socials\n\nhttps://colors.lnk.to/sub2yt\nhttps://colors.lnk.to/fb\nhttps://colors.lnk.to/insta\nhttps://colors.lnk.to/twitter"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "KaGv5AT32loPKDhiHeglBxKvLK8", 
+      "id": "ZBubzYxboD4pWdAgnw_fRoPevMr7dgus9xTBCzU8A8w"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-b3a2Rs13Wh0/AAAAAAAAAAI/AAAAAAAAAAA/laq_oCKec1Y/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-b3a2Rs13Wh0/AAAAAAAAAAI/AAAAAAAAAAA/laq_oCKec1Y/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-b3a2Rs13Wh0/AAAAAAAAAAI/AAAAAAAAAAA/laq_oCKec1Y/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "NPR Music", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC4eYXhJI4-7wSWc8UNRwD4A"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2019-10-03T11:10:59.821000Z", 
+        "description": "The official YouTube channel for NPR Music featuring Tiny Desk Concerts, live shows, documentaries and more.  Find more at www.npr.org/music"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "-N9XwcdrF80DQObYK6qymar2zn0", 
+      "id": "ZBubzYxboD6y52aP1lMqe9WuO04IBgfEW1WNbc2ysgA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-QTLh7O00aWU/AAAAAAAAAAI/AAAAAAAAAAA/XPL7t11E4hw/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-QTLh7O00aWU/AAAAAAAAAAI/AAAAAAAAAAA/XPL7t11E4hw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-QTLh7O00aWU/AAAAAAAAAAI/AAAAAAAAAAA/XPL7t11E4hw/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Vicky Fates", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCAmsG9x5YKZ4lOr8MDHM_0Q"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2018-12-12T04:13:18.724000Z", 
+        "description": "**NEW COVER EVERY 1ST MONDAY OF THE MONTH!**\n\n\nHey! I'm Vicky and I come from a beautiful European country called Belarus. I've been drumming since 2002 and at the moment I play for bands Akute, No Shelter and Lovestory, perform as a session and studio drummer, beat the hell out of my drums and regularly make drum videos :) I'm also happy to endorse Pearl drums and Paiste cymbals.\n\nI've launched a PATREON page with much more cool videos to come! Support me - patreon.com/VickyFates\n\nIf you're interested in cooperation or live shows contact me - vicky.fates@gmail.com"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "SIP_bkwGTIhdLZ0EuWmkURqZpQQ", 
+      "id": "ZBubzYxboD6y52aP1lMqe_MTy6h9lo5iQjOxu3olzoA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/--cnRUfxjkqs/AAAAAAAAAAI/AAAAAAAAAAA/MaggdBghpVQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/--cnRUfxjkqs/AAAAAAAAAAI/AAAAAAAAAAA/MaggdBghpVQ/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/--cnRUfxjkqs/AAAAAAAAAAI/AAAAAAAAAAA/MaggdBghpVQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "R y a n C e l s i u s \u00b0 S o u n d s", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCMkBFD0YPtrcoB_tni5uOLQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2019-08-23T00:51:31.307000Z", 
+        "description": "The best music  from the underground Lofi Hip Hop , Phonk , Vaporwave , Wave , Experimental Bass music and Experimental visuals / music videos . Stream on all Platforms https://fanlink.to/RyanCelsius |  Since 2012 |\n \n\uff29\uff07\uff4d \uff32\uff59\uff41\uff4e \uff23\uff45\uff4c\uff53\uff49\uff55\uff53 , \ud835\ude70\ud835\ude74\ud835\ude82\ud835\ude83\ud835\ude77\ud835\ude74\ud835\ude83\ud835\ude78\ud835\ude72 \ud835\ude73\ud835\ude78\ud835\ude74\ud835\ude83\ud835\ude88,  Phonk Overlord: Here you'll find trippy music videos and experimental underground music. Now a Record Label available on all platforms:   Chill , Experimental , cloud rap, Trap  Trip Hop,  Glitch Hop, Witch House, Hip Hop, Lo-fi,  Wavy,  futurebeats, Vaporwave , Simpsonwave, FRESHWAVE  \n\nSEND SUBMISSIONS: Ryan.celsius@gmail.com\n\nAll inquiries: Ryan.Celsius@gmail.com"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "hrvtgqVd14k5T4CbTjTwG60-Y5w", 
+      "id": "ZBubzYxboD6y52aP1lMqe9A-xCw7qaXOtAnM7GdpDBg"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-KHt9EAjPSzY/AAAAAAAAAAI/AAAAAAAAAAA/qSHorhp1oPw/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-KHt9EAjPSzY/AAAAAAAAAAI/AAAAAAAAAAA/qSHorhp1oPw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-KHt9EAjPSzY/AAAAAAAAAAI/AAAAAAAAAAA/qSHorhp1oPw/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Native Instruments", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCwjiBFz7LuxYvmIRw5kChFA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2012-08-16T22:33:48Z", 
+        "description": "Native Instruments is a leading manufacturer of software and hardware for computer-based audio production and DJing. The company's mission is to develop innovative, fully-integrated solutions for all musical styles and professions. The resulting products regularly push technological boundaries and open up new creative horizons for professionals and amateurs alike.\n\nFor more info visit our website: https://www.native-instruments.com"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "7uFmUM_vl5JxCLhPu6dW77BiyZA", 
+      "id": "ZBubzYxboD6y52aP1lMqe-5LFfWZ4iMTbdINS7uLfzQ"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-FbQGUEjoIwk/AAAAAAAAAAI/AAAAAAAAAAA/bix8P7-wwZg/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-FbQGUEjoIwk/AAAAAAAAAAI/AAAAAAAAAAA/bix8P7-wwZg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-FbQGUEjoIwk/AAAAAAAAAAI/AAAAAAAAAAA/bix8P7-wwZg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "BANKS", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCDv75EpGUZjimTxJq25xClg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2015-04-14T00:19:24Z", 
+        "description": "Official YouTube channel for Harvest/Good Years recording artist BANKS. \n\n\"Heavily influenced by the folk and soul expressions of Fiona Apple and Miss Lauryn Hill, respectively, Banks' tender instrument wavers somewhere between heavy-laden tones and tight, heady melodies. On tracks like \"Fall Over\" the range of her vocal disparity is effortlessly displayed, Banks' stylistic versatility mirroring something like the younger, electro-funk incarnation of one Florence Welch. Her newest single \"Warm Water\", released on the U.K. label Good Years Recordings, is a downtempo, melancholy ballad. Despite its lyrical and musical content, however, the track is able to transcend the intended measure of sadness and reach a level of content and sublimeness, only possible through Banks' unique tonal quality and emotional conviction. Produced by the infamous Totally Enormous Extinct Dinosaurs, \"Warm Water\" exposes all of the artist's vulnerabilities and puts them on display.\" - IndieCurrent 5/16/13"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "YSaWo1CZhTgSNQ8a4TlX0L5ldmg", 
+      "id": "ZBubzYxboD6y52aP1lMqe4RoGz1tljvFmauJWEXQ-Y4"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-a8Au08IA32k/AAAAAAAAAAI/AAAAAAAAAAA/oafYsgXjB7A/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-a8Au08IA32k/AAAAAAAAAAI/AAAAAAAAAAA/oafYsgXjB7A/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-a8Au08IA32k/AAAAAAAAAAI/AAAAAAAAAAA/oafYsgXjB7A/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "JC Coccoli", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCZkrWvBtHaCPiBI2COyGQog"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2019-04-21T22:30:53.613000Z", 
+        "description": "JC Coccoli is an American writer, producer, and comedienne. Her award-winning comedy pushes boundaries as it entertains with material that\u2019s engaging, heartfelt, and cry-your-eyes-out funny. Her TV background includes writing and producing for HBO Max's media launch under the KNOWN Creative umbrella, Headspace's \"Straighten up\" series launch and social assets, E! Live events pitch packet with a 360-degree content programming approach surrounding the red carpet, Maker Studios/Disney Digital 2017 programming, socials and media events, MTV dating show programming, MTV movie awards, CBS, Comedy Central, FunnyorDie, HULU, and VH1's 'Best Week Ever.' She was a final contestant on NBC's Last Comic Standing and starred in the hit MTV sketch show, 'Hey Girl\u2019.  In 2016, JC was the Supervising Producer of the live talk show: \u2018Fashionably Late\u2019, hosted by celebrity stylist Rachel Zoe. As of 2019, JC has performed on the high seas as the Comic-In-Residence aboard Carnival cruise line."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "2REx1B1IGQKi92OHTRAn19r7Cao", 
+      "id": "ZBubzYxboD6y52aP1lMqe2zWq5byqwJvSICfFKJMGcE"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-8MXWVcs8rB4/AAAAAAAAAAI/AAAAAAAAAAA/8WLspG4b1-Q/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-8MXWVcs8rB4/AAAAAAAAAAI/AAAAAAAAAAA/8WLspG4b1-Q/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-8MXWVcs8rB4/AAAAAAAAAAI/AAAAAAAAAAA/8WLspG4b1-Q/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "debuglive", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCgG3Nvp86j1WaHaLwjoVJZg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-05-28T04:29:00.498000Z", 
+        "description": "Various vids from live gigs / experiments / musical toys."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "FVWIbVP81Vq_5Um_Sa11-fiosbI", 
+      "id": "ZBubzYxboD6y52aP1lMqe-vccQSTmwyGzeBjvXuXVi0"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-LcNXUMfV4lY/AAAAAAAAAAI/AAAAAAAAAAA/W6OZ-aBXx9c/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-LcNXUMfV4lY/AAAAAAAAAAI/AAAAAAAAAAA/W6OZ-aBXx9c/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-LcNXUMfV4lY/AAAAAAAAAAI/AAAAAAAAAAA/W6OZ-aBXx9c/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Ben Eater", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCS0N5baNlQWJCUrhCEo8WlA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-12-12T13:33:46Z", 
+        "description": "Subscribe to see tutorial-style videos about electronics, computer architecture, networking, and various other technical subjects. If you want to see more on a particular subject, leave a comment and I'll try my best to add more.\n\nIf you'd like to support my work, please do!\nhttps://www.patreon.com/beneater\nhttps://paypal.me/beneater\nhttps://cash.me/$eater\nbitcoin:1EaterJkmmuJWfm8hvULrMJGm7R8JgXTL8\nbitcoincash:1JUjEErUjkgBVJP28GH6LKihvEUJ1RGZhx"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "Zx-ZTKkn5gGyJpmCpuglxwgY5To", 
+      "id": "ZBubzYxboD6y52aP1lMqe1J96qa_-aHxWwdhcTHHvQo"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-bC4_P9cQPPE/AAAAAAAAAAI/AAAAAAAAAAA/VuxobKlOKRA/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-bC4_P9cQPPE/AAAAAAAAAAI/AAAAAAAAAAA/VuxobKlOKRA/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-bC4_P9cQPPE/AAAAAAAAAAI/AAAAAAAAAAA/VuxobKlOKRA/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Practical Engineering", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCMOqf8ab-42UUQIdVoKwjlQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-08-21T12:35:36.972000Z", 
+        "description": "Grady Hillhouse is a professional civil engineer and hobbyist everything else in San Antonio, Texas. The goal for Practical Engineering is to increase exposure and interest in the field of engineering. I'm trying to highlight that connection between the world around us and the energy, passion, and thought that goes into making it a nicer place to live.\n\nDisclaimer: The videos I produce are for entertainment only. My videos or comments should not be regarded as professional engineering advice or services. Also, these videos are produced on my own behalf and do not necessarily represent the views or opinions of my employer. Finally, please do not attempt to reproduce anything you see me do without the proper knowledge, experience, and equipment.\n\nCONTACT\n---------------------------------------------\nQuestions/Topic Suggestions: https://practical.engineering/about\nSponsorship/Business Inquiries: See below"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "NH27YBxKRIXov11cNqTymN93ek8", 
+      "id": "ZBubzYxboD6y52aP1lMqez38PgazHziZHhwz5QAncaM"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-5K_uXO0lSMM/AAAAAAAAAAI/AAAAAAAAAAA/xUqi8W5ujeg/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-5K_uXO0lSMM/AAAAAAAAAAI/AAAAAAAAAAA/xUqi8W5ujeg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-5K_uXO0lSMM/AAAAAAAAAAI/AAAAAAAAAAA/xUqi8W5ujeg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Negotiating For Humans", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCcWH8QFDxMGLcELXUmm8-9g"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-07-29T16:42:56.313000Z", 
+        "description": "This not a place to get \u201clegal\u201d advice or even a place to discuss \u201clegal\u201d issues. We started this channel because the way people typically do transformational deals is broken and there\u2019s too much value being lost to miserable deal teams to ignore it.\n\nOur experience (and quite a bit of research) tells us that a big part of this is the way deal teams approach this work even before an RFx goes out. Traditional negotiations, deal processes, and contracting processes tend to test attributes that don\u2019t drive success. It\u2019s the intangibles that often make the difference in transformational work."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "o6Tenr3tzMmujc8LZyOO_UVcHg8", 
+      "id": "ZBubzYxboD5de_JFxn-vOwb7c4InF_uhJc1WKM8ig2U"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-12OBRpC-w14/AAAAAAAAAAI/AAAAAAAAAAA/z_vPwJwcPiY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-12OBRpC-w14/AAAAAAAAAAI/AAAAAAAAAAA/z_vPwJwcPiY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-12OBRpC-w14/AAAAAAAAAAI/AAAAAAAAAAA/z_vPwJwcPiY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "wearesundaygirl", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCBGGklOgOk-Pbpsi3NO1C5Q"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2014-08-17T20:25:40Z", 
+        "description": ""
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "PFKHUV_rvnwvoYIVixWim3iiG80", 
+      "id": "ZBubzYxboD6y52aP1lMqe5q9-xw-NxYibary4cqU0k4"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-EBJSshTN1uw/AAAAAAAAAAI/AAAAAAAAAAA/pwJtm_1qH-o/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-EBJSshTN1uw/AAAAAAAAAAI/AAAAAAAAAAA/pwJtm_1qH-o/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-EBJSshTN1uw/AAAAAAAAAAI/AAAAAAAAAAA/pwJtm_1qH-o/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "The Obsoletist", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UChXVtGwOS_dexHtL8fv45Pw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-08-21T12:27:21Z", 
+        "description": "Just a guy who makes videos about revitalizing old tech.\n\nLogo and banner by LethalWeapwn and Engi"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "AabLCLHQfZMUq1QiAQGtCjy4emE", 
+      "id": "ZBubzYxboD6y52aP1lMqewSeHyzsv3zoEbK0LzkuZ-s"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-_9kZtmVBLac/AAAAAAAAAAI/AAAAAAAAAAA/38yYXVFDIPQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-_9kZtmVBLac/AAAAAAAAAAI/AAAAAAAAAAA/38yYXVFDIPQ/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-_9kZtmVBLac/AAAAAAAAAAI/AAAAAAAAAAA/38yYXVFDIPQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Ricky Tinez", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC4OAAbxtB6QEKaTDb-SEe-Q"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-05-01T19:06:25.868000Z", 
+        "description": "Focusing on Music from beginner to expert"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "65azj1IRM0mpomYzYaUB_wU3JCg", 
+      "id": "ZBubzYxboD6y52aP1lMqe1RZi94vmDuSB9aag1QYwPg"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-_x-ZVh5Jg6o/AAAAAAAAAAI/AAAAAAAAAAA/6OtaH6kvRyY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-_x-ZVh5Jg6o/AAAAAAAAAAI/AAAAAAAAAAA/6OtaH6kvRyY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-_x-ZVh5Jg6o/AAAAAAAAAAI/AAAAAAAAAAA/6OtaH6kvRyY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Tyler Ward Music", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC4vT3qTr8fwVS7IsPgqaGCQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2013-04-23T17:16:18Z", 
+        "description": "Hello! My name is Tyler Ward and I'm incredibly thankful to do music full-time. Life is full of surprises and I'm just grateful to be alive. This is some of my music. I write songs. I record covers. Thank you for stopping by, I hope you enjoy it!"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "7toPLj_a95ASmEtLAuTKOd9ag8w", 
+      "id": "ZBubzYxboD6y52aP1lMqe1cJSTy9m1xUaRu-eFlN5qM"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-GXdNF1uL6nY/AAAAAAAAAAI/AAAAAAAAAAA/nBPSlUS3WQE/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-GXdNF1uL6nY/AAAAAAAAAAI/AAAAAAAAAAA/nBPSlUS3WQE/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-GXdNF1uL6nY/AAAAAAAAAAI/AAAAAAAAAAA/nBPSlUS3WQE/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Haywyre", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCxGKfJ-Xf8lgdX9PC00YMrA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2015-03-11T05:30:33Z", 
+        "description": "Management & Bookings: mgmt@haywyremusic.com\n\nHaywyre is a project that synthesizes the best of two musical genres, that of contemporary electronic, along with the more established traditions of classical and jazz. It has been building and maintaining momentum since its creator, Martin Vogt, returned to the U.S. from Austria in 2008.\n\nVogt\u2019s primary tool for composition is piano improvisation; it provides the foundation for his work and the core of his musical identity. Having spent endless hours in the studio \u2014 and upwards of fourteen years studying piano performance \u2014 Martin has honed his craft into the professional sound it is known for today, characterized by exciting, progressive tracks which are crafted with unique composition and seamless design."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "TsrSr3-DTEdIvU3Zf1UllevoTps", 
+      "id": "ZBubzYxboD6y52aP1lMqe7iQXjwpJFTFFn6KCsrp0Ic"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-RKoRbVvY7IA/AAAAAAAAAAI/AAAAAAAAAAA/Z0ckVVccgYw/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-RKoRbVvY7IA/AAAAAAAAAAI/AAAAAAAAAAA/Z0ckVVccgYw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-RKoRbVvY7IA/AAAAAAAAAAI/AAAAAAAAAAA/Z0ckVVccgYw/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Petrolicious", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCgyJPixJl95X1ut3E9K99KA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2017-06-02T15:42:46Z", 
+        "description": "Petrolicious creates quality, original videos and articles for classic car enthusiasts.\nWe celebrate the inventions, the personalities, and the aesthetics that ignite our collective lust for great machines. We are fans and fanatics, collectors and racers. We seek to inform, entertain, and inspire our community of aficionados and pique the interest of those who have been missing out.\n\nVisit Petrolicious.com for more.\n\nDrive Tastefully\u00ae"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "IpCEIbBZDlVnYcKqIqBDRCVt5x8", 
+      "id": "ZBubzYxboD6y52aP1lMqe5GSgtNkPI4Z5jUzjXbA_ps"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-zfurPhsqetc/AAAAAAAAAAI/AAAAAAAAAAA/6LGM6-LdmVQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-zfurPhsqetc/AAAAAAAAAAI/AAAAAAAAAAA/6LGM6-LdmVQ/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-zfurPhsqetc/AAAAAAAAAAI/AAAAAAAAAAA/6LGM6-LdmVQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Josh Turner Guitar", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC3Wj9aO8VS5ZuXrtWfJf81w"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2012-04-29T20:36:57Z", 
+        "description": "Hey! I'm Josh, and I've been posting videos on youtube since I was 15, and since then, the channel has taken me all over the world. Over the years I've gotten to collaborate with dozens of friends who play music, and I've worked with musicians who have since become friends. This channel is about the spirit of collaboration, and keeping an open mind to sounds and ideas both old and new. \n\nI've published a lot of covers over the years, but I have also released quite a bit of original music, either solo (as Joshua Lee Turner) or with bands such as The Other Favorites and Kingdom Jasmine. \n\nIf you like Rock, Folk, Jazz, Classical, Early Music, R&B, Pop, Bluegrass, Indie, Blues, or pretty much any other genre, then I think you'll find something here for you. \n\nI'm currently based in Brooklyn, NY, and am touring the world when there isn't a pandemic afoot."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "gku0SG9F190WxJ49UjM7mrLLXLU", 
+      "id": "ZBubzYxboD6y52aP1lMqe4XP18Qalc4xCu8vQ4jowlk"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-sHudFpUQB3I/AAAAAAAAAAI/AAAAAAAAAAA/VHlCTNZWEzs/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-sHudFpUQB3I/AAAAAAAAAAI/AAAAAAAAAAA/VHlCTNZWEzs/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-sHudFpUQB3I/AAAAAAAAAAI/AAAAAAAAAAA/VHlCTNZWEzs/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Cloud Of Judgement", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCXa3bJak2uLgIG_tBdP60Tw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2019-05-14T05:03:08.839000Z", 
+        "description": "I'm a 3D Artist, animator, and art director."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "QgpSP2xvohLEkEm4YjwK6v9mla8", 
+      "id": "ZBubzYxboD6y52aP1lMqe6uzhTFaqRx5WyNctNcgF6g"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-P_oTGAU7TB0/AAAAAAAAAAI/AAAAAAAAAAA/zGCrjIUYbF8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-P_oTGAU7TB0/AAAAAAAAAAI/AAAAAAAAAAA/zGCrjIUYbF8/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-P_oTGAU7TB0/AAAAAAAAAAI/AAAAAAAAAAA/zGCrjIUYbF8/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "therunningmates", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCW_fsXbJu1aXDbsaIu5mMEQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-07-19T02:38:24.105000Z", 
+        "description": "The Running Mates are a duo made up of husband and wife Spencer and Julie Broschard. The pair met in 2008 while attending Berklee College of Music in Boston, Massachusetts where their chemistry quickly became apparent. They are most well known for their popular YouTube channel with over 100k subscribers and more than ten million views. They also have several original albums and EP's available everywhere music is streamed."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "J3YLskQyGYqxLC2sjM3rdhPY-9k", 
+      "id": "ZBubzYxboD6y52aP1lMqe7PODwomDh_XSvpq4S-A8DY"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-Qn-lIR57lq0/AAAAAAAAAAI/AAAAAAAAAAA/IM_JotWBD0c/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-Qn-lIR57lq0/AAAAAAAAAAI/AAAAAAAAAAA/IM_JotWBD0c/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-Qn-lIR57lq0/AAAAAAAAAAI/AAAAAAAAAAA/IM_JotWBD0c/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Extreme Machines Magazine", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCC9BTZI6CwEFBiqMwl9J8CQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-12-15T01:59:50Z", 
+        "description": "About Extreme Machines Magazine:\n\nExtreme Machines Magazine is a website and also a YouTube Channel. From the giant car companies to the small craft company, we want to share the most interesting industrial processes around the world in a fun way.\n\nSo if you are a professional or simply a fan, Extreme Machine Magazine is the perfect YouTube channel for you, don't forget to subscribe !\n\nDon't forget to also visit our website.\n\nContact us: themachinesmagazine+contact@gmail.com \n\nDISCLAIMER:\n\nIf you have a problem or a suggestion with some of our content, please contact us with the email contact below ."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "ulkrlPFHr5qMGxlN2kCNLo64_Eo", 
+      "id": "ZBubzYxboD4pWdAgnw_fRvUIE-YuBD3yft1XGBpmvH4"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-uCWjUExCgrU/AAAAAAAAAAI/AAAAAAAAAAA/kREUfgRtgLY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-uCWjUExCgrU/AAAAAAAAAAI/AAAAAAAAAAA/kREUfgRtgLY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-uCWjUExCgrU/AAAAAAAAAAI/AAAAAAAAAAA/kREUfgRtgLY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Ashley Lawless", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCHDpULOnAJg66wKX2KcrCAQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-07-10T21:06:26Z", 
+        "description": "i sing covers, write originals, and am currently working on a few singles \ud83d\udd25\n\n\n\nGet to know me better:  \n\nhttp://www.patreon.com/ashleylawless\nhttp://www.instagram.com/ashleylawlz\nhttp://www.facebook.com/ashleylawlzz\n\n\n\ud83c\udde8\ud83c\udde6Toronto, Canada  \n\ud83d\udce9Business : ashleylawlessmusic@gmail.com\n\ud83d\udcecPO Box 32028 Milliken Crossing PO,\u00a0Markham\u00a0ON M1V0E1, Canada"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "OjtoTWXJjf62HKt1BbWt6pYz1g8", 
+      "id": "ZBubzYxboD6y52aP1lMqe7lu__XjzfpnWCAHJB9EKzA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-AD20FOVwT6s/AAAAAAAAAAI/AAAAAAAAAAA/RxldRaCJuhs/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-AD20FOVwT6s/AAAAAAAAAAI/AAAAAAAAAAA/RxldRaCJuhs/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-AD20FOVwT6s/AAAAAAAAAAI/AAAAAAAAAAA/RxldRaCJuhs/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Life Uncontained", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC-l69It3hxAY3tkBH_utLNQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-03-15T20:40:57.927000Z", 
+        "description": "After years spent not knowing what to do with our lives, we have finally decided to chase what makes us happy. Inspired by our past road trips, the hippies of the seventies, and the alien, Elon Musk, we are choosing to risk everything. We are selling our traditional home, quitting our current jobs, and moving from Florida to Texas where we will build our dream debt-free net zero shipping container home."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "6sa5CC2ZRsGox_IdxNC7zskxAVc", 
+      "id": "ZBubzYxboD4pWdAgnw_fRr6OWvGUhfMqSPosthh76Vc"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9rMvrCTfRtw/AAAAAAAAAAI/AAAAAAAAAAA/vl6I6d649_k/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-9rMvrCTfRtw/AAAAAAAAAAI/AAAAAAAAAAA/vl6I6d649_k/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9rMvrCTfRtw/AAAAAAAAAAI/AAAAAAAAAAA/vl6I6d649_k/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "morgangsimpson", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCxIJt2TONUvAxsSxfeBEfmg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-12-04T04:15:42Z", 
+        "description": ""
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "hI6COU3ELoECty0nbHxG-gIGTfc", 
+      "id": "ZBubzYxboD6y52aP1lMqe8vAAljPA6MqgSkwLAthtBY"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-GPnOzxlluvQ/AAAAAAAAAAI/AAAAAAAAAAA/nW5u9ARC5-g/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-GPnOzxlluvQ/AAAAAAAAAAI/AAAAAAAAAAA/nW5u9ARC5-g/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-GPnOzxlluvQ/AAAAAAAAAAI/AAAAAAAAAAA/nW5u9ARC5-g/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Yvan Jacques", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCyqzYE3ewpGG_gs4gLOls6g"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2017-07-17T12:27:35Z", 
+        "description": "About my channel: \n          (fran\u00e7ais plus bas)\nMy movies are spontaneous interpretations of well-known songs, mostly jazz standards. I play both guitar & piano but not in the same time LOL ! \nThe song selection and the spontaneous approach reflect my perspective towards playing live night after night, just as I did for a living for about 40 years.\n\nMes vid\u00e9os sont fait spontan\u00e9ment il n'y a pas d'arrangement travaill\u00e9s pendant des heures,  je joue la pi\u00e8ce avec des moments heureux et d'autres moins. Not\u00e9 : je joue la guitare et le piano mais pas en m\u00eame temps LOL\n\nJ'ai pr\u00e9vil\u00e9gi\u00e9s une approche de musiciens de carri\u00e8re qui doit jouer les morceaux avec des musiciens diff\u00e9rents et dans toutes circonstances. \n\nUne certaine lecture musical est n\u00e9cessaire mais pas toujours si  il y a un instrument qui joue la m\u00e9lodie une bonne connaissance des symboles d'accord s'impose mais surtout l'improvisation est primordial."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "g1ojg_WW0Ajr3LuG0T3fgpUKGFA", 
+      "id": "ZBubzYxboD6y52aP1lMqezm-Fl25Iuf9rOeUfuDyXmE"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-p20xvNF9c3g/AAAAAAAAAAI/AAAAAAAAAAA/MwoVrBC5PGM/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-p20xvNF9c3g/AAAAAAAAAAI/AAAAAAAAAAA/MwoVrBC5PGM/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-p20xvNF9c3g/AAAAAAAAAAI/AAAAAAAAAAA/MwoVrBC5PGM/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "The Covers Duo", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UC2X-Km5vNPYT647tHFLcnWw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2015-11-17T15:38:59Z", 
+        "description": "M\u00fasica a nuestra manera!"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "gzPaw54lgO7UqpSvG7Z6Qj4zgTc", 
+      "id": "ZBubzYxboD6y52aP1lMqe_DHpSRwY_gPL86iFrS78uQ"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-okobuG_K-Lo/AAAAAAAAAAI/AAAAAAAAAAA/rMZ2uL3XXsk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-okobuG_K-Lo/AAAAAAAAAAI/AAAAAAAAAAA/rMZ2uL3XXsk/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-okobuG_K-Lo/AAAAAAAAAAI/AAAAAAAAAAA/rMZ2uL3XXsk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Walk That Bass", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCk24OnGLcP5XlTBjZ9WBWvw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2017-08-12T13:44:41Z", 
+        "description": "Walk That Bass is all about Jazz and Blues. Jazz is a broad and complex genre of music which can be challenging to grasp. It's difficult to even know where to start. This is where this YouTube channel steps in. It offers free Jazz Piano Tutorials that cover everything you need to play the Blues and Jazz. \n\nMy goal in creating this website is to help those who are interested in learning to play and appreciate Jazz. It tries to combine both practical and theoretical aspects, so that you will be able to play Jazz, but also understand why the the thing you are playing sounds good (or bad). \n\nThese Jazz tutorials cover everything from Jazz chords, improvisation, Jazz scales, chord substitution, reharmonization, chord voicings, comping and everything else you need to become a competent and professional sounding Jazz musician.\n\nAnd if you like my lessons, then check out my website where I upload all my content in writing for your perusal.\nhttp://www.thejazzpianosite.com/"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "nbkeL6bwAp0JK3VjaQSv6HufpP4", 
+      "id": "ZBubzYxboD6y52aP1lMqezakdVNoWbBcnnjANErBqBc"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-gue9kZYLgC4/AAAAAAAAAAI/AAAAAAAAAAA/eoL2TPQc7V8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-gue9kZYLgC4/AAAAAAAAAAI/AAAAAAAAAAA/eoL2TPQc7V8/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-gue9kZYLgC4/AAAAAAAAAAI/AAAAAAAAAAA/eoL2TPQc7V8/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "MR PORTER", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCpMEC_NiX1r503JISXQ-VKw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2020-03-20T17:47:15.096000Z", 
+        "description": "MR PORTER is the online style destination for men. The MR PORTER channel is the go-to resource for all a modern man's needs. Meet the world\u2019s most stylish men \u2013 and get their recommendations of where to eat, drink and stay. Explore our latest collaborations and keep informed with our distinguished how-to guides.\n\nRead the latest edition of The Journal: https://www.mrporter.com/journal/\n\nConnect with MR PORTER:\nWeb: http://www.mrporter.com\nInstagram: http://instagram.com/mrporterlive\nTwitter: http://www.twitter.com/mrporterlive\nPinterest: http://www.pinterest.com/mrporterlive"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "F7EHoUro9H1f1N02i5ZS6ub9_ys", 
+      "id": "ZBubzYxboD6y52aP1lMqe0FCZfXwm7JU1GE-br3l_ZY"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-4PJRgcyNyVU/AAAAAAAAAAI/AAAAAAAAAAA/KPylOXnyHQY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-4PJRgcyNyVU/AAAAAAAAAAI/AAAAAAAAAAA/KPylOXnyHQY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-4PJRgcyNyVU/AAAAAAAAAAI/AAAAAAAAAAA/KPylOXnyHQY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Jamie Harrison Guitar", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCsNrtpnPylTpt6TjPEWqmFA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2014-11-18T20:54:55Z", 
+        "description": "jamieharrisonguitar.com\n\nInstagram\n\nfacebook.com/jamieharrisonguitar\n\nFacebook\n\nfacebook.com/jamieharrisonguitar"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "5TrodQ4HuUbBQtTPB4bsQ3cGAFM", 
+      "id": "ZBubzYxboD6y52aP1lMqe-_48-vPMZChJMOeDV5_Lk4"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-7n1kh4AETrw/AAAAAAAAAAI/AAAAAAAAAAA/Hbq2OhBYvaY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-7n1kh4AETrw/AAAAAAAAAAI/AAAAAAAAAAA/Hbq2OhBYvaY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-7n1kh4AETrw/AAAAAAAAAAI/AAAAAAAAAAA/Hbq2OhBYvaY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "SpiritofDubstep", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCOySOJxmJZiOyUnbir0oeTg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2013-01-21T02:21:23Z", 
+        "description": "SpiritofDubstep was originally created with good intentions back in 2011 before being left to ruin.\n\nI wish I got around to uploading new music and promoting good dubstep artists. Thanks to all of those that did send your music, I had a great time listening.\n\nI never made any money on any of these videos, this channel was made way before I learnt about copyright. This channel was going to be a place to listen to some well selected dubstep bangers.\n\nThanks Ashley"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "EV8ErzgoEG23Ht2A_n1lUMEWEwc", 
+      "id": "ZBubzYxboD6y52aP1lMqe1UR-is1en-_OzQgSWOBglo"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-ak19_WDMOuE/AAAAAAAAAAI/AAAAAAAAAAA/0gSkiaTtJg4/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-ak19_WDMOuE/AAAAAAAAAAI/AAAAAAAAAAA/0gSkiaTtJg4/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-ak19_WDMOuE/AAAAAAAAAAI/AAAAAAAAAAA/0gSkiaTtJg4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "PINN PANELLE", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCHn_1g3_PShJg3dCbPUtmnQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2015-10-27T03:00:49Z", 
+        "description": "Pinn Panelle is a live Rock/Electronic music project led by Derek Song (Guitar, vocals, production)."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "lkoY1KLVi4rsE3pM3wtC3jgolE0", 
+      "id": "ZBubzYxboD6y52aP1lMqe71gr5aClSsvCXqdq-szVOc"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-UhXGWCF_oWs/AAAAAAAAAAI/AAAAAAAAAAA/QM9ogtJ1YXc/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-UhXGWCF_oWs/AAAAAAAAAAI/AAAAAAAAAAA/QM9ogtJ1YXc/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-UhXGWCF_oWs/AAAAAAAAAAI/AAAAAAAAAAA/QM9ogtJ1YXc/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "The Hacks Of Life", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCv751BnNvZshrvTU64khOww"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-04-22T03:50:24Z", 
+        "description": "The Hacks Of Life is your guide for basic how to, life hacks, tutorials, and more!"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "K4TbetmUPbf-TGNn7ErYJEEmIrI", 
+      "id": "ZBubzYxboD6y52aP1lMqe7kaBKyurWcZ5eV4ZYW_2yA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-waYunpNuwpY/AAAAAAAAAAI/AAAAAAAAAAA/UwFbmYRfzyo/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-waYunpNuwpY/AAAAAAAAAAI/AAAAAAAAAAA/UwFbmYRfzyo/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-waYunpNuwpY/AAAAAAAAAAI/AAAAAAAAAAA/UwFbmYRfzyo/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "3Blue1Brown", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCYO_jab_esuFRV4b17AJtAw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2019-06-21T02:43:22.969000Z", 
+        "description": "3Blue1Brown, by Grant Sanderson, is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.\n\nFor more information, other projects, FAQs, and inquiries see the website: https://www.3blue1brown.com"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "M1cLMi3Z79j-pKzENAblNzQrhSM", 
+      "id": "ZBubzYxboD6y52aP1lMqe7wGRG9LT87x1VlKz4QM33o"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-M8Q5us-QEjE/AAAAAAAAAAI/AAAAAAAAAAA/iBc-ytkQ3jw/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-M8Q5us-QEjE/AAAAAAAAAAI/AAAAAAAAAAA/iBc-ytkQ3jw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-M8Q5us-QEjE/AAAAAAAAAAI/AAAAAAAAAAA/iBc-ytkQ3jw/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Kong Pham", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCFns-k9UgOhVRnKHdynzU2A"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2013-05-26T02:40:42Z", 
+        "description": ""
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "Qn6GEMau634cgdBNiugCAc-f0wk", 
+      "id": "ZBubzYxboD6y52aP1lMqe9q0TkbziwWc5rrSsJbqol8"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-8m4a8uXtWQs/AAAAAAAAAAI/AAAAAAAAAAA/badhAi9IqyI/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-8m4a8uXtWQs/AAAAAAAAAAI/AAAAAAAAAAA/badhAi9IqyI/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-8m4a8uXtWQs/AAAAAAAAAAI/AAAAAAAAAAA/badhAi9IqyI/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Grace Helbig", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCIiBf-JbtCazHSFqXV4JgoA"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2015-05-08T01:44:07Z", 
+        "description": "Hi, I\u2019m Grace Helbig and I make 2-3 videos a week on a consistently inconsistent basis that include fashion reviews, tutorials, challenges, monthly favorites, and more! You might like them, you might hate them, but you can't unsee them. Unless you have amnesia. Subscribe for weekly videos and make sure to enable ALL push notifications, so you never miss an upload. For instant updates follow me on my social medias below."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "zFVPsaqRu1ZcEIwohhXCn_N0atM", 
+      "id": "ZBubzYxboD6y52aP1lMqe3J_faZD0KL4Khe5khA86zA"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-IoZLL5zRS1Q/AAAAAAAAAAI/AAAAAAAAAAA/DYq-cvqQnRU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-IoZLL5zRS1Q/AAAAAAAAAAI/AAAAAAAAAAA/DYq-cvqQnRU/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-IoZLL5zRS1Q/AAAAAAAAAAI/AAAAAAAAAAA/DYq-cvqQnRU/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "bunnspecial", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCH2tip12T74yMFqU-JaGoIQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2013-12-06T03:23:50Z", 
+        "description": "All Horological videos performed by an amateur.  Do not attempt at home.  No watches were harmed in the making of those videos.  For entertainment only.\n\nSome of these videos contain foul language and/or loud burping.\n\nSome of these things I own."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "hC6-0KV75x2DD_skUT_uSMhbRqw", 
+      "id": "ZBubzYxboD6y52aP1lMqeyTbzVMCkcqEfOCEo_RMeWE"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-2vh072zhiv4/AAAAAAAAAAI/AAAAAAAAAAA/MfhDIuHe_Vc/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-2vh072zhiv4/AAAAAAAAAAI/AAAAAAAAAAA/MfhDIuHe_Vc/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-2vh072zhiv4/AAAAAAAAAAI/AAAAAAAAAAA/MfhDIuHe_Vc/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "PolicyEd", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCFKrfZXPHx5URnspnfM8lpQ"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2018-11-13T04:23:39.455000Z", 
+        "description": "Seeking to become the foremost source of policy knowledge, wisdom, and insights, we have launched the PolicyEd platform to prepare Americans for engaged citizenship and to equip people to participate constructively in our vibrant society."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "eIBkpMeXbqOuPdJZKHL0ocjcyO8", 
+      "id": "ZBubzYxboD4pWdAgnw_fRu-iluqVcC6ppd2yjTCovx0"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-TClHDSNHQYY/AAAAAAAAAAI/AAAAAAAAAAA/ufJux245J9k/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-TClHDSNHQYY/AAAAAAAAAAI/AAAAAAAAAAA/ufJux245J9k/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-TClHDSNHQYY/AAAAAAAAAAI/AAAAAAAAAAA/ufJux245J9k/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "ardentoctopus", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UChTUAFAKm4uPYAQ5AyZN9hw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2016-08-28T23:58:30Z", 
+        "description": "Dive into the vast world of Ardent Octopus . . .\n\n\nWatch Ardent Octopus and listen to visionary rock music that lyrically immerses you into an imaginary world of Ardent Octopus.\n\n \n\nWatch Steve of Ardent Octopus, the originator of the Slide Cam, in Blues Slide Cam Guitar Strikes Again, for a unique video perspective."
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "D2fZNHEZ0RpQolhga5DPeOU7oQU", 
+      "id": "ZBubzYxboD6y52aP1lMqe7beYTjlwfn3ANgd3AbIzLc"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-M0_lRsNbwbA/AAAAAAAAAAI/AAAAAAAAAAA/1rCKpaxGY7E/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-M0_lRsNbwbA/AAAAAAAAAAI/AAAAAAAAAAA/1rCKpaxGY7E/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-M0_lRsNbwbA/AAAAAAAAAAI/AAAAAAAAAAA/1rCKpaxGY7E/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "Binging with Babish", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCJHA_jMfCvEnv-3kRjTCQXw"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2018-07-11T04:59:43.681000Z", 
+        "description": "Binging with Babish is the realization of a young(ish) man's dream to combine his love of film and cooking, and to have some fun in the process.  Join us each week as we recreate the foods you've always wanted to try in movies and television - and if you're not careful, you just might learn a thing or two.\n\nPlease support Binging with Babish!  Check out my Patreon at http://www.patreon.com/bingingwithbabish - you can get access to bonus videos, special content, and even a custom episode if you give me enough sweet sweet money!\n\nAlso check us out on:\n\nhttp://www.twitter.com/bingingwbabish\nhttp://www.facebook.com/bingingwithbabish\nhttp://www.youtube.com/bgfilms\nhttp://www.instagram.com/bingingwithbabish"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "J9yJO7yFJnKNveMfTZCWJq7JjR8", 
+      "id": "ZBubzYxboD6y52aP1lMqe8MF4y_fR_TwlS1Hs60nAz0"
+    }, 
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-Xrh6h_qx4o8/AAAAAAAAAAI/AAAAAAAAAAA/4r6L1SNT3fE/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "high": {
+            "url": "https://yt3.ggpht.com/-Xrh6h_qx4o8/AAAAAAAAAAI/AAAAAAAAAAA/4r6L1SNT3fE/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }, 
+          "medium": {
+            "url": "https://yt3.ggpht.com/-Xrh6h_qx4o8/AAAAAAAAAAI/AAAAAAAAAAA/4r6L1SNT3fE/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }, 
+        "title": "yanaperrault", 
+        "resourceId": {
+          "kind": "youtube#channel", 
+          "channelId": "UCZtwL04b70Ah_Rqi1Nyp3Fg"
+        }, 
+        "channelId": "UC9v4QXjioPoaVW4-fRJFEbw", 
+        "publishedAt": "2017-05-28T01:13:51Z", 
+        "description": "Hi, I'm Yana. And I make music on the internet. :)\nJust a girl trying to keep her eyebrows in order.\n\u2665"
+      }, 
+      "kind": "youtube#subscription", 
+      "etag": "We6jtIOVFDikUpv5BdjZrsPwKUQ", 
+      "id": "ZBubzYxboD6y52aP1lMqe_EjEEdUShB2_ImmohunZuE"
+    }
+  ], 
+  "etag": "Rt3sMtyMeNrqskn1YJ9X4Yc2V9Q", 
+  "prevPageToken": "CJYBEAE", 
+  "pageInfo": {
+    "resultsPerPage": 50, 
+    "totalResults": 282
+  }
+}
