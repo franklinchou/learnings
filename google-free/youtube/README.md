@@ -1,4 +1,4 @@
-# YouTube playlist downloader
+# YouTube data downloader
 
 Find a way to preserve the following items on YouTube:
 
