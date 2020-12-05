@@ -11,7 +11,7 @@ seq -w <start> <end> | \
 ```
 
 1. Use `seq` to generate the sequence, replacing `<start>` and `<end>` with the desired start and end, e.g.,
-downloading all the images from 1 to 14 with leading 0 padding would be `seq -w 1 14` (the `-w` flag adds leading zeroes)
+downloading all the files from 1 to 14 with leading 0 padding would be `seq -w 1 14` (the `-w` flag adds leading zeroes)
 2. Find and replace the `**` using `gsub`
 3. Pipe the result through bash
 
