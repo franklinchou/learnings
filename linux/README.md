@@ -3,10 +3,15 @@
 ## Downloading files based on a sequence 
 
 ```sh
-seq -w 1 14 | awk '{ source = "https://example/source/**.ext"; gsub("\*\*, $1, source); print "wget " source " - P /path/to/destination" }' | bash
+seq -w <start> <end> | \
+    awk '{ source = "https://example/source/**.ext"; \
+    gsub("\*\*, $1, source); \
+    print "wget " source " -P /path/to/destination" }' | \
+    bash
 ```
 
-1. Use `seq` to generate the sequence (the `-w` flag pads the field with leading zeroes)
+1. Use `seq` to generate the sequence, replacing `<start>` and `<end>` with the desired start and end, e.g.,
+downloading all the images from 1 to 14 with leading 0 padding would be `seq -w 1 14` (the `-w` flag adds leading zeroes)
 2. Find and replace the `**` using `gsub`
 3. Pipe the result through bash
 
