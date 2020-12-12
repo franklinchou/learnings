@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # positional parameters:
 # 1 source
 # 2 ending index
