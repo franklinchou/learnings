@@ -1,5 +1,12 @@
 # Useful \*Nix commands
 
+## Determine total disk usage
+
+```sh
+# determine total disk usage of the current directory
+sudo du -sh ./
+```
+
 ## Downloading files based on a sequence 
 
 ```sh
