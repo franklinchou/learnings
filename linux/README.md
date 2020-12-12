@@ -1,6 +1,14 @@
 # Useful \*Nix commands
 
-## Downloading files based on a sequence
+
+## Determine total disk usage
+
+```sh
+# determine total disk usage of the current directory
+sudo du -sh ./
+```
+
+## Downloading files based on a sequence 
 
 ```sh
 seq -w <start> <end> | \
@@ -19,6 +27,7 @@ See also `download.sh`
 
 NOTE! mawk (the awk interpreter that ships with Ubuntu) does not support regex quantifiers (`{}`). 
 Some combination of `?`, `+` and `*` can be used instead. See [here](https://unix.stackexchange.com/questions/506119/how-to-specify-regex-quantifiers-with-mawk).
+
 
 ## Using sed to delete lines in a file
 
