@@ -1,6 +1,5 @@
 # Useful \*Nix commands
 
-
 ## Determine total disk usage
 
 ```sh
