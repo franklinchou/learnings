@@ -15,7 +15,7 @@ fi
 
 for i in $(seq -w 1 $2); do
     source=$1
-    dest=$(echo $source | awk -v i=$i '{ gsub("0[0-9]{3}.JPG", i ".JPG"); print }')
+    dest=$(echo $source | awk -v i=$i '{ gsub(/0[0-9]+\.JPG/, i ".JPG"); print }')
     $(curl -X GET "$dest" -o "$3/$i.jpg")
 done
 
