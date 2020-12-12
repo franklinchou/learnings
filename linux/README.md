@@ -2,10 +2,9 @@
 
 ## Determine total disk usage
 
-```sh
-# determine total disk usage of the current directory
-sudo du -sh ./
-```
+- `du -sh ./` Determine total disk usage of the current directory
+- `du -h -d1 ./` Determine the total disk usage of all child directories (`-d1` or `--max-depth=1` means direct child directories only (excludes grandchildren, great-grandchildren, etc.)) 
+
 
 ## Downloading files based on a sequence 
 
