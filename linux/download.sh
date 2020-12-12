@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# positional parameters:
+# Download all the files with JPG extension in a sequence by providin the following positional parameters:
 # 1 source
 # 2 ending index
 # 3 output destination
