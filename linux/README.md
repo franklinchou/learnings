@@ -1,11 +1,11 @@
 # Useful \*Nix commands
 
-## Downloading files based on a sequence 
+## Downloading files based on a sequence
 
 ```sh
 seq -w <start> <end> | \
     awk '{ source = "https://example/source/**.ext"; \
-    gsub("\*\*, $1, source); \
+    gsub("\*\*", $1, source); \
     print "wget " source " -P /path/to/destination" }' | \
     bash
 ```
@@ -16,6 +16,9 @@ downloading all the files from 1 to 14 with leading 0 padding would be `seq -w 1
 3. Pipe the result through bash
 
 See also `download.sh`
+
+NOTE! mawk (the awk interpreter that ships with Ubuntu) does not support regex quantifiers (`{}`). 
+Some combination of `?`, `+` and `*` can be used instead. See [here](https://unix.stackexchange.com/questions/506119/how-to-specify-regex-quantifiers-with-mawk).
 
 ## Using sed to delete lines in a file
 
