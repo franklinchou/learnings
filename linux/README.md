@@ -15,6 +15,8 @@ downloading all the files from 1 to 14 with leading 0 padding would be `seq -w 1
 2. Find and replace the `**` using `gsub`
 3. Pipe the result through bash
 
+See also `download.sh`
+
 ## Using sed to delete lines in a file
 
 Used to delete lines in a file:
