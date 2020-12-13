@@ -75,7 +75,7 @@ awk '{print $0",,"}' RS="\r*\n\r*" LC_20191231.csv > LC_20191231_cleaned.csv
 
 - Count number of lines: `wc -l <file>`
 - Count number of words: `wc -w <file>`
-- Counting the number of lines can be paired with `ls`, e.g., to count the number of directories only `ls -ld . | wc-l`
+- Counting the number of lines can be paired with `ls`, e.g., to count the number of directories only, `ls -ld . | wc-l`
 
 ## `inotify` watch limit reached
 
