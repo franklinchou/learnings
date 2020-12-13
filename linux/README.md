@@ -8,7 +8,7 @@ Use the `xargs` command. (`xargs` takes output from one command and sends it to 
 # given a file with the parameters of a command (each on a separate line)
 # send each line as arguments to the command `<command>`
 # note that each command takes a uniform number `<number>` of arguments
-[[ -d ./<file> ]] && cat ./<file> | xargs -n<number> <command>
+[[ -f ./<file> ]] && cat ./<file> | xargs -n<number> <command>
 ```
 
 ## Determine total disk usage
