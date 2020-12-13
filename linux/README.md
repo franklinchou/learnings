@@ -1,9 +1,20 @@
 # Useful \*Nix commands
 
+## Sending arguments from a file to the interpreter
+
+Use the `xargs` command. (`xargs` takes output from one command and sends it to another command as parameters)
+
+```sh
+# given a file with the parameters of a command (each on a separate line)
+# send each line as arguments to the command `<command>`
+# note that each command takes a uniform number `<number>` of arguments
+[[ -f ./<file> ]] && cat ./<file> | xargs -n<number> <command>
+```
+
 ## Determine total disk usage
 
 - `du -sh ./` Determine total disk usage of the current directory
-- `du -h -d1 ./` Determine the total disk usage of all child directories (`-d1` or `--max-depth=1` means direct child directories only (excludes grandchildren, great-grandchildren, etc.)) 
+- `du -h -d1 ./` Determine the total disk usage of all child directories (`-d1` or `--max-depth=1` means direct child directories only (excludes grandchildren, great-grandchildren, etc.))
 
 
 ## Downloading files based on a sequence 
@@ -64,6 +75,7 @@ awk '{print $0",,"}' RS="\r*\n\r*" LC_20191231.csv > LC_20191231_cleaned.csv
 
 - Count number of lines: `wc -l <file>`
 - Count number of words: `wc -w <file>`
+- Counting the number of lines can be paired with `ls`, e.g., to count the number of directories only, `ls -ld . | wc-l`
 
 ## `inotify` watch limit reached
 

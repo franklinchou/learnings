@@ -7,6 +7,8 @@ google-free/youtube/setenv.sh
 google-free/youtube/venv/*
 google-free/youtube/.env
 
+oas-assets/*
+
 aws/venv/*
 
 **/*.ipynb_checkpoints/
