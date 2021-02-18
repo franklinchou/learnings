@@ -4,20 +4,23 @@ Sub AcceptDeletionsInSelection()
 ' Accept all track changes DELETIONS in a selection
 '
 
-Dim objRevision As Revision
-Dim objDoc As Document
- 
-Application.ScreenUpdating = False
- 
-Set objDoc = Selection
 If Not Selection.Active Then
     MsgBox "No selected text!", _
         vbCritical + vbOKOnly, "Cannot perform action"
     Exit Sub
 End If
     
+Application.ScreenUpdating = False
+ 
+
+Dim objRevision As Revision
+Dim objDoc As Document
+Dim rngR As Range
+
+Set objDoc = ActiveDocument
+Set rngR = Selection.Range
   
-For Each objRevision In objDoc.Revisions
+For Each objRevision In rngR.Revisions
     With objRevision
         If .Type = wdRevisionDelete Then
             .Accept
