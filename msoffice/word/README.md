@@ -3,6 +3,11 @@
 Getting around in MS Word like a boss
 
 * Insert new page section break, `Alt + P, B, N`
+* Using Field Codes:
+  * Insert a field code bracket pair, `Ctrl + F9`
+  * Toggle between displaying field codes and field code values, `Alt + F9`
+  * Calculations can be performed with field codes, e.g., `{ = { PAGE } - 1 }` or `{ = { PAGE } + 1 }`
+  * NOTE! If the document contains a table of contents ("TOC"), the page numbers of the TOC will still use `{ PAGE }` rather than any calculated field code.
 * Formatting:
   * Show formatting, `Ctrl + Shift + 8`
   * Remove all manual formatting, `Ctrl + Space`
