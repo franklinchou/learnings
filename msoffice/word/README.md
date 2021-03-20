@@ -27,3 +27,4 @@ Getting around in MS Word like a boss
   * Bring up Accept submenu, `Alt + R, A`
 * Go to page: `F5`
 * Insert bookmark: `Ctrl + Shift + F5`
+* View Macros: `Alt + F8`
