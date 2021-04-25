@@ -11,6 +11,9 @@ Use the `xargs` command. (`xargs` takes output from one command and sends it to 
 [[ -f ./<file> ]] && cat ./<file> | xargs -n<number> <command>
 ```
 
+## Where things are stored:
+- `/usr/share/keyrings` global system keyrings
+
 ## Determine total disk usage
 
 - `du -sh ./` Determine total disk usage of the current directory
