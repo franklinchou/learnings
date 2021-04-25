@@ -58,7 +58,7 @@ sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginni
 
 Use the `>>` operator to append to file. For example, appending `*.pdf` to `.gitignore`: 
 
-```
+```sh
 # Note: single quotes in bash do not perform variable expansion / string interpolation 
 echo '*.pdf' >> .gitignore
 ```
@@ -72,14 +72,14 @@ echo 'text to add' | tee output.txt
 
 ## Appending characters/string to each line of a file
 
-```
+```sh
 awk '{print $0"<desired_text>"}' RS="\r*\n\r*" <input_file> > <output_file>
 ```
 
 Without the RS modifier, the desired characters (",,") are appended to their own line between existing lines.
 For example, the following appends two commas (",,") to each line of a file:
 
-```
+```sh
 awk '{print $0",,"}' RS="\r*\n\r*" LC_20191231.csv > LC_20191231_cleaned.csv
 ```
 
