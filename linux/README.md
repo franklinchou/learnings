@@ -54,13 +54,21 @@ sed -i '/'[a-f0-9]'\{7\}/c\' ./path/to/file  # use to remove hex commit numbers
 sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginning of each line
 ```
 
-## Append text to file
+## Adding text to file
 
 Use the `>>` operator to append to file. For example, appending `*.pdf` to `.gitignore`: 
 
 ```
-echo "*.pdf" >> .gitignore
+# Note: single quotes in bash do not perform variable expansion / string interpolation 
+echo '*.pdf' >> .gitignore
 ```
+
+Use the `tee` command to simultaneously print to standard output and the specified file:
+
+```sh
+echo 'text to add' | tee output.txt
+```
+
 
 ## Appending characters/string to each line of a file
 
