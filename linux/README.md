@@ -13,6 +13,8 @@ Use the `xargs` command. (`xargs` takes output from one command and sends it to 
 
 ## Where things are stored:
 - `/usr/share/keyrings` global system keyrings
+- `/etc/apt/sources.list.d` where source information for external pacakges is stored
+- 
 
 ## Determine total disk usage
 
