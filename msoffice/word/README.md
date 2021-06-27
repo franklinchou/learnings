@@ -28,3 +28,6 @@ Getting around in MS Word like a boss
 * Go to page: `F5`
 * Insert bookmark: `Ctrl + Shift + F5`
 * View Macros: `Alt + F8`
+* Speech / Dictation
+  * Read highlighted text aloud - `Ctrl + Alt + Space`
+  * Dictate - `Alt + H, D`
