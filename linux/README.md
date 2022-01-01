@@ -114,7 +114,7 @@ machine is restarted)
 
 ## List applications using a port
 
-List the applications using port 80
+List the applications using port 80 (may need to use sudo)
 
 `lsof -i :80`
 
