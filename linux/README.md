@@ -2,7 +2,7 @@
 
 ## Finding things in files
 
-* Finding all the occurrences of foo in all text files within a directory, `grep -r "foo"`
+* Find all occurrences of foo in all text files within a directory, `grep -r "foo"`
 
 ## Sending arguments from a file to the interpreter
 
