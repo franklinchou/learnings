@@ -114,9 +114,11 @@ machine is restarted)
 
 ## List applications using a port
 
-List the applications using port 80 (may need to use sudo)
+List the applications using port 80 by issuing: `lsof -i :80` (`lsof` is short for list open files)
 
-`lsof -i :80`
+Note:
+- The `-i` flag limits the search to ports opened by network connections.
+- May need to use `sudo` becuase many of the processes or devices that `lsof` can report on belong to root or were launched by root. 
 
 ## Inspect file contents
 
