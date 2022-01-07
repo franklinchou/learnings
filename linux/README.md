@@ -58,7 +58,7 @@ sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginni
 
 # global replacement of tab indent with <number of spaces>; easy enough 
 sed 's/\t/<number of spaces>/g' tab-file.txt > no-tab-file.txt
-# same as the above, but in-place (with the input files stored with the .bak extension)
+# same as the above, but in-place (with the input file stored with the .bak extension)
 sed -i .bak 's/\t/<number of spaces>/g' input-file.txt 
 ```
 
