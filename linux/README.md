@@ -55,8 +55,11 @@ sed -i '/What I want to replace/c\What I want to replace it with' ./path/to/file
 sed -i '/What I want to */c\What I want to replace it with' ./path/to/file  # wildcard character matching
 sed -i '/'[a-f0-9]'\{7\}/c\' ./path/to/file  # use to remove hex commit numbers
 sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginning of each line
-sed 's/\t/<number of spaces>/g' tab-file.txt > no-tab-file.txt # global replacement of tab indent with <number of spaces>; easy enough 
-sed -i .bak 's/\t/<number of spaces>/g' input-file.txt # same as the above, but in-place (with the input files stored with the .bak extension`
+
+# global replacement of tab indent with <number of spaces>; easy enough 
+sed 's/\t/<number of spaces>/g' tab-file.txt > no-tab-file.txt
+# same as the above, but in-place (with the input files stored with the .bak extension)
+sed -i .bak 's/\t/<number of spaces>/g' input-file.txt 
 ```
 
 ## Adding text to file
