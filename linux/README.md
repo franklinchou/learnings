@@ -4,6 +4,7 @@
 
 * Find all occurrences of foo in all text files within a directory, `grep -R "foo"`
 * Ignore case with the `-i` flag
+* Get the line number of the matching text with the `-n` flag
 
 ## Sending arguments from a file to the interpreter
 
