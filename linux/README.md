@@ -60,6 +60,9 @@ sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginni
 sed 's/\t/<number of spaces>/g' tab-file.txt > no-tab-file.txt
 # same as the above, but in-place (with the input file stored with the .bak extension)
 sed -i .bak 's/\t/<number of spaces>/g' input-file.txt 
+
+# Replace the pattern in all files within a given directory
+find /my/path -type f | xargs sed -i  's/what I want to replace/what I want to replace with/g'
 ```
 
 ## Adding text to file
