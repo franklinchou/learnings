@@ -1,5 +1,16 @@
 # Git
 
+## Commit current changes to a different branch
+
+For example, you're working on a feature and notice a bug. But you want the bugfix to be in a separate branch.
+
+```
+# take care of the changes that belong in the feature branch using add, commit, etc.
+git stash # stash the changes that belong in the bugfix branch
+git checkout <bugfix-branch>
+git stash pop # pop the bugfix changes off the queue
+```
+
 ## Reverting changes to a single file
 
  Note: The `--` flag indicates to git that the parameter that follows is a file and not a branch. 
@@ -69,12 +80,6 @@ git reset --hard origin/<branch>
 git clean -f -d  # remove untracked files from local 
 ```
 
-## Add all except
-
-```
-git add -u
-git reset -- <item-to-remove>
-```
 
 ## Merge
 

@@ -61,6 +61,10 @@ sed -i 's/^/* /' ./giant-commit  # use to add a bullet (*<space>) to the beginni
 sed 's/\t/<number of spaces>/g' tab-file.txt > no-tab-file.txt
 # same as the above, but in-place (with the input file stored with the .bak extension)
 sed -i .bak 's/\t/<number of spaces>/g' input-file.txt 
+
+# Replace the pattern in all files within a given directory
+find /my/path -type f | xargs sed -i  's/what I want to replace/what I want to replace with/g'
+
 ```
 
 ## Adding text to file
@@ -124,9 +128,11 @@ machine is restarted)
 
 ## List applications using a port
 
-List the applications using port 80
+List the applications using port 80 by issuing: `lsof -i :80` (`lsof` is short for list open files)
 
-`lsof -i :80`
+Note:
+- The `-i` flag limits the search to ports opened by network connections.
+- May need to use `sudo` becuase many of the processes or devices that `lsof` can report on belong to root or were launched by root. 
 
 ## Inspect file contents
 
