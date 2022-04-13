@@ -14,7 +14,8 @@ Set objDoc = ActiveDocument
 Set rngR = Selection.Range
 
 rngR.HighlightColorIndex = wdTurquoise
-
+Options.DefaultHighlightColorIndex = wdYellow
+                
 Set objDoc = Nothing
 
 End Sub
