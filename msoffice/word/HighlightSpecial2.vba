@@ -15,6 +15,7 @@ Set rngR = Selection.Range
 
 rngR.HighlightColorIndex = wdBrightGreen
 Options.DefaultHighlightColorIndex = wdYellow
+
 Set objDoc = Nothing
 
 End Sub
