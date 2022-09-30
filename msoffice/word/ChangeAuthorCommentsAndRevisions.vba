@@ -1,7 +1,8 @@
 Sub ChangeAuthorCommentsAndRevisions()
 '
-' Change all the tracked changes and comments in a document
-' labeled with a given author to a new author
+' Change all  tracked changes and comments in a document
+' labeled with a given author to the current author
+' Accept all formatting changes
 
 Application.ScreenUpdating = False
 
@@ -20,6 +21,7 @@ Dim myComment As Comment
 
 Dim cIns As New Collection
 Dim cDel As New Collection
+Dim cFormat As New Collection
 Dim cComment As New Collection
 
 If ActiveDocument.Revisions.Count = 0 And ActiveDocument.Comments.Count = 0 Then
@@ -29,7 +31,7 @@ If ActiveDocument.Revisions.Count = 0 And ActiveDocument.Comments.Count = 0 Then
 End If
 
 Dim r As Variant
-r = InputBox("Old author name? (Defaults to Author)", "Old Author Name")
+r = InputBox("Old author name? (Defaults to ""Author"")", "Old Author Name")
 If r = 0 Then
     Exit Sub
 ElseIf r = "" Then
@@ -50,6 +52,9 @@ For Each myRev In ActiveDocument.Revisions
         If myRev.Type = wdRevisionDelete Then
             cDel.Add myRev
         End If
+        If myRev.Type <> wdNoRevision And myRev.FormatDescription <> "" Then
+            cFormat.Add myRev
+        End If
     End If
 Next
 
@@ -58,6 +63,12 @@ For Each myComment In ActiveDocument.Comments
         cComment.Add myComment
     End If
 Next
+
+' Accept all format changes
+For Each myRev In cFormat
+    myRev.Accept
+Next
+    
 
 ' Reassign author for insertions
 Set revRange = Nothing
@@ -76,6 +87,7 @@ For Each myRev In cDel
     revRange.Delete
 Next
 
+' Reassign author for comments
 For Each myComment In cComment
     
     Set revRange = myComment.Range
@@ -98,3 +110,4 @@ Next
 ActiveDocument.TrackRevisions = BCStatus
 
 End Sub
+
