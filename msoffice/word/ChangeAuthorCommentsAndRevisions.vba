@@ -1,5 +1,5 @@
 Sub ChangeAuthorCommentsAndRevisions()
-'
+
 ' Change all  tracked changes and comments in a document
 ' labeled with a given author to the current author
 ' Accept all formatting changes
@@ -88,6 +88,7 @@ For Each myRev In cDel
 Next
 
 ' Reassign author for comments
+Set revRange = Nothing
 For Each myComment In cComment
     
     Set revRange = myComment.Range
