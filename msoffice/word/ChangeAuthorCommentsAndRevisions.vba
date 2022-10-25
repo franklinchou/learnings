@@ -1,5 +1,5 @@
 Sub ChangeAuthorCommentsAndRevisions()
-
+'
 ' Change all  tracked changes and comments in a document
 ' labeled with a given author to the current author
 ' Accept all formatting changes
