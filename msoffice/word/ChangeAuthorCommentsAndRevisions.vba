@@ -88,6 +88,7 @@ For Each myRev In cDel
 Next
 
 ' Reassign author for comments
+Set revRange = Nothing
 For Each myComment In cComment
     
     Set revRange = myComment.Range
