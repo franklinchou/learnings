@@ -10,6 +10,9 @@ Getting around in MS Word like a boss
   * NOTE! If the document contains a table of contents ("TOC"), the page numbers of the TOC will still use `{ PAGE }` rather than any calculated field code.
 * Formatting:
   * Show formatting, `Ctrl + Shift + 8`
+  * Footnotes:
+    * View footnotes: Set View to Draft (Views > Draft), then select "Show Notes" from the References tab
+    * Note: Footnote separator can be moved and formatted with the above method 
   * Remove all manual formatting, `Ctrl + Space`
   * Apply heading style, `Ctrl + Alt + [n]`, where `n` is the heading style, e.g., Heading 1 (`Ctrl + Alt + 1`)
   * View Reveal Formatting dialog window, `Shift + F1`
@@ -18,7 +21,7 @@ Getting around in MS Word like a boss
     * Double underline `Ctrl + Shift + D`
   * Case
     * Cycle through different case formats, `Shift + F3` (Title Case, all lower case, ALL UPPER CASE)
-    * Format all letters as uppercase, `Ctrl + Shift + A` (not as useful as `Shift + F3`)
+    * Format all letters as uppercase, `Ctrl + Shift + A` (useful for formatting indemnity and limitation of liability clauses)
   * Copy and paste formatting of the selected text, `Ctrl + Shift + C` and `Ctrl + Shift + V` 
   * Paste text only, `Alt + H, V, T`
   * Insert non-breaking paragraph (a/k/a "style separator"), `Ctrl + Alt + Enter`
