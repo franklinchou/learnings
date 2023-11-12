@@ -35,3 +35,5 @@ Getting around in MS Word like a boss
 * Speech / Dictation
   * Read highlighted text aloud - `Ctrl + Alt + Space`
   * Dictate - `Alt + H, D`
+* Replace multiple spaces
+  * In the Find and Replace box, enable wildcards. In the find field, enter: `<space>{2,}` and in the replace field, enter `<space>`. 
