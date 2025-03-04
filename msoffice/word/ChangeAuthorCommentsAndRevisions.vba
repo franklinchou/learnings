@@ -1,10 +1,9 @@
 Sub ChangeAuthorCommentsAndRevisions()
 '
 ' Change all  tracked changes and comments in a document
-' labeled with a given author to the current author
+' labeled with a given author to the specified author
 ' Accept all formatting changes
 
-' Application.ScreenUpdating = False
 
 Dim sCurrentAuthor As String
 Dim sOldAuthor As String
