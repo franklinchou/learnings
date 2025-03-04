@@ -4,7 +4,7 @@ Sub ChangeAuthorCommentsAndRevisions()
 ' labeled with a given author to the current author
 ' Accept all formatting changes
 
-Application.ScreenUpdating = False
+' Application.ScreenUpdating = False
 
 Dim sCurrentAuthor As String
 Dim sOldAuthor As String
@@ -31,13 +31,23 @@ If ActiveDocument.Revisions.Count = 0 And ActiveDocument.Comments.Count = 0 Then
 End If
 
 Dim r As Variant
-r = InputBox("Old author name? (Defaults to ""Author"")", "Old Author Name")
+r = InputBox("Old author name? (Defaults to ""Franklin Chou"")", "Old Author Name")
 If r = 0 Then
     Exit Sub
 ElseIf r = "" Then
-    sOldAuthor = "Author"
+    sOldAuthor = "Franklin Chou"
 Else
     sOldAuthor = r
+End If
+
+Set r = Nothing
+r = InputBox("New author name? (Defaults to ""Nelson Mullins"")", "New Author Name")
+If r = 0 Then
+    Exit Sub
+ElseIf r = "" Then
+    sNewAuthor = "Nelson Mullins"
+Else
+    sNewAuthor = r
 End If
 
 BCStatus = ActiveDocument.TrackRevisions
@@ -69,6 +79,8 @@ For Each myRev In cFormat
     myRev.Accept
 Next
     
+
+ActiveDocument.Application.UserName = sNewAuthor
 
 ' Reassign author for insertions
 Set revRange = Nothing
@@ -109,6 +121,8 @@ For Each myComment In cComment
 Next
 
 ActiveDocument.TrackRevisions = BCStatus
+
+ActiveDocument.Application.UserName = sOldAuthor
 
 End Sub
 
